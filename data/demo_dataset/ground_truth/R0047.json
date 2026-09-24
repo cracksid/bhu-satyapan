@@ -1,0 +1,88 @@
+{
+  "record_id": "R0047",
+  "family_id": "F0018",
+  "role": "parent",
+  "district": "सातारा",
+  "taluka": "पाटण",
+  "village": "कवठेमळा",
+  "survey_number": "443",
+  "hissa_number": null,
+  "khata_number": "143",
+  "total_area": 0.57,
+  "cultivable_area": 0.56,
+  "pot_kharaba": 0.01,
+  "assessment": 2.22,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "वत्सला रघुनाथ निकम",
+      "share_area": 0.57,
+      "assessment_share": 2.22
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 155000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2045",
+      "date": "2008-01-11",
+      "type": "gift",
+      "from_owner": "शिवाजी दत्तात्रय माने",
+      "to_owner": "मीरा राम दाभाडे",
+      "area": 0.57
+    },
+    {
+      "mutation_number": "2214",
+      "date": "2009-10-23",
+      "type": "partition",
+      "from_owner": "रखमाबाई दिलीप घाडगे",
+      "to_owner": "सुरेश संतोष दाभाडे",
+      "area": 0.57
+    },
+    {
+      "mutation_number": "2487",
+      "date": "2012-12-02",
+      "type": "sale",
+      "from_owner": "सुरेश संतोष दाभाडे",
+      "to_owner": "वत्सला रघुनाथ निकम",
+      "area": 0.57
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 0.38,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "बाजरी",
+      "area": 0.37,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.5,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "broken_mutation_chain",
+      "record_id": "R0047",
+      "detail": "mutation 2214 is transferred by रखमाबाई दिलीप घाडगे, who was not an owner at that time (the holder was मीरा राम दाभाडे)",
+      "fields": [
+        "mutations"
+      ]
+    }
+  ],
+  "image_file": "images/R0047.jpg"
+}

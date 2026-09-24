@@ -1,0 +1,75 @@
+{
+  "record_id": "R0001",
+  "family_id": "F0001",
+  "role": "parent",
+  "district": "अहिल्यानगर",
+  "taluka": "श्रीगोंदा",
+  "village": "रानतळेवाडी",
+  "survey_number": "391",
+  "hissa_number": null,
+  "khata_number": "840",
+  "total_area": 1.47,
+  "cultivable_area": 1.47,
+  "pot_kharaba": 0.0,
+  "assessment": 4.21,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "रखमाबाई प्रकाश शेलार",
+      "share_area": 0.67,
+      "assessment_share": 1.92
+    },
+    {
+      "name": "सुनंदा रघुनाथ साळुंखे",
+      "share_area": 0.45,
+      "assessment_share": 1.29
+    },
+    {
+      "name": "सुरेश सुनील कुलकर्णी",
+      "share_area": 0.35,
+      "assessment_share": 1.0
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1084",
+      "date": "1999-11-14",
+      "type": "gift",
+      "from_owner": "सुनंदा रघुनाथ साळुंखे",
+      "to_owner": "रखमाबाई प्रकाश शेलार",
+      "area": 0.67
+    },
+    {
+      "mutation_number": "1109",
+      "date": "2001-10-28",
+      "type": "partition",
+      "from_owner": "सुनंदा रघुनाथ साळुंखे",
+      "to_owner": "सुरेश सुनील कुलकर्णी",
+      "area": 0.35
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 1.33,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 1.26,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0002",
+    "R0003"
+  ],
+  "defects": [],
+  "image_file": "images/R0001.jpg"
+}

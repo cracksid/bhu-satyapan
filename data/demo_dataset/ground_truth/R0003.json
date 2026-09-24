@@ -1,0 +1,92 @@
+{
+  "record_id": "R0003",
+  "family_id": "F0001",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "श्रीगोंदा",
+  "village": "रानतळेवाडी",
+  "survey_number": "391",
+  "hissa_number": "2",
+  "khata_number": "756",
+  "total_area": 1.03,
+  "cultivable_area": 1.03,
+  "pot_kharaba": 0.0,
+  "assessment": 2.38,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "सखाराम दिलीप माने",
+      "share_area": 1.03,
+      "assessment_share": 2.38
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1438",
+      "date": "2002-11-02",
+      "type": "partition",
+      "from_owner": "गणेश बबन साळुंखे",
+      "to_owner": "बबन दत्तात्रय घाडगे",
+      "area": 1.03
+    },
+    {
+      "mutation_number": "1494",
+      "date": "2004-11-17",
+      "type": "inheritance",
+      "from_owner": "दत्तात्रय विठ्ठल जाधव",
+      "to_owner": "सखाराम दिलीप माने",
+      "area": 1.03
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.92,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.45,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ऊस",
+      "area": 0.82,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.58,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "तूर",
+      "area": 0.75,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0001",
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "broken_mutation_chain",
+      "record_id": "R0003",
+      "detail": "mutation 1494 is transferred by दत्तात्रय विठ्ठल जाधव, who was not an owner at that time (the holder was बबन दत्तात्रय घाडगे)",
+      "fields": [
+        "mutations"
+      ]
+    }
+  ],
+  "image_file": "images/R0003.jpg"
+}

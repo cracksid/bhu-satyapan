@@ -38,9 +38,24 @@ CACHE_FILE = PROJECT_ROOT / "data" / "demo_cache.json"
 DEMO_RECORDS_FILE = PROJECT_ROOT / "data" / "demo_records.json"
 
 
+def tesseract_available() -> bool:
+    """Is the OCR engine installed on this machine?"""
+    import shutil
+    if shutil.which("tesseract"):
+        return True
+    return Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe").exists()
+
+
 def demo_mode() -> bool:
-    """Is the app in demo mode? Set BHU_DEMO_MODE=1 to turn it on."""
-    return os.environ.get("BHU_DEMO_MODE", "").strip() in {"1", "true", "yes", "on"}
+    """Should OCR come only from the cache?
+
+    True when BHU_DEMO_MODE is set, and also whenever Tesseract is missing -
+    which is the case on a hosted server. There, cached readings are the only
+    thing that can work, and falling back to them beats an error page.
+    """
+    if os.environ.get("BHU_DEMO_MODE", "").strip() in {"1", "true", "yes", "on"}:
+        return True
+    return not tesseract_available()
 
 
 def load_cache() -> dict:
@@ -162,6 +177,74 @@ def pick(limit: int = 4) -> int:
     return 0
 
 
+def dataset(size: int = 30) -> int:
+    """Copy a small, self-contained batch into data/demo_dataset.
+
+    The hosted app has no generator and no OCR engine, so it needs records in
+    the repository. Families are kept whole: rule 1 compares a survey number
+    against its hissa records and rule 6 compares parcels across the batch, so
+    half a family would make the app show flags that are not really there.
+    """
+    import shutil
+
+    source = PROJECT_ROOT / "data" / "synthetic"
+    target = PROJECT_ROOT / "data" / "demo_dataset"
+    truth_files = sorted((source / "ground_truth").glob("*.json"))
+    if not truth_files:
+        print(f"No records in {source}. Run:  python -m src.generator.generate")
+        return 1
+
+    records = {}
+    for path in truth_files:
+        record = json.loads(path.read_text(encoding="utf-8"))
+        records[record["record_id"]] = record
+
+    families = {}
+    for record in records.values():
+        families.setdefault(record["family_id"], []).append(record)
+
+    # Start with the showcase records' families, then add variety: one family
+    # per defect type, then clean ones to fill the rest.
+    chosen_families, wanted = [], set(demo_records().values())
+    for family_id, members in families.items():
+        if any(member["record_id"] in wanted for member in members):
+            chosen_families.append(family_id)
+
+    seen_defects = set()
+    for family_id, members in families.items():
+        if family_id in chosen_families:
+            continue
+        kinds = {d["type"] for member in members for d in member["defects"]}
+        if kinds - seen_defects:
+            seen_defects |= kinds
+            chosen_families.append(family_id)
+
+    for family_id, members in families.items():
+        if sum(len(families[f]) for f in chosen_families) >= size:
+            break
+        if family_id not in chosen_families and not any(m["defects"] for m in members):
+            chosen_families.append(family_id)
+
+    shutil.rmtree(target, ignore_errors=True)
+    (target / "images").mkdir(parents=True)
+    (target / "ground_truth").mkdir(parents=True)
+
+    copied = 0
+    for family_id in chosen_families:
+        for member in families[family_id]:
+            record_id = member["record_id"]
+            shutil.copy2(source / "ground_truth" / f"{record_id}.json",
+                         target / "ground_truth" / f"{record_id}.json")
+            shutil.copy2(source / "images" / f"{record_id}.jpg",
+                         target / "images" / f"{record_id}.jpg")
+            copied += 1
+
+    megabytes = sum(p.stat().st_size for p in target.rglob("*") if p.is_file()) / 1_048_576
+    print(f"Copied {copied} records ({len(chosen_families)} whole families, "
+          f"{megabytes:.1f} MB) into {target}")
+    return 0
+
+
 def show() -> int:
     cache = load_cache()
     if not cache:
@@ -180,8 +263,9 @@ def show() -> int:
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="Cache OCR results for the demo.")
-    parser.add_argument("command", choices=["build", "list", "pick"],
-                        help="build the cache, list it, or pick the showcase records")
+    parser.add_argument("command", choices=["build", "list", "pick", "dataset"],
+                        help="build the cache, list it, pick showcase records, "
+                             "or copy a small dataset for the hosted app")
     parser.add_argument("records", nargs="*", help="record ids, e.g. R0013")
     args = parser.parse_args(argv)
 
@@ -189,6 +273,8 @@ def main(argv=None) -> int:
         return show()
     if args.command == "pick":
         return pick()
+    if args.command == "dataset":
+        return dataset()
 
     record_ids = args.records or list(demo_records().values())
     if not record_ids:

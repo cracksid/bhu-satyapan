@@ -115,6 +115,13 @@ def _agreed_number(page, cell, fast_text: str):
     best_value = first_number(best.text)
     if best_value is None:
         return None, -1.0
+
+    if not reader.best_model_available():
+        # Only one model is installed, so there is no second opinion to compare
+        # against. Fall back to Tesseract's own confidence and the floor in
+        # config.py - weaker, and the rules will skip more often.
+        return best_value, best.confidence
+
     fast_value = first_number(fast_text)
     if fast_value is not None and abs(fast_value - best_value) < 0.005:
         return best_value, best.confidence

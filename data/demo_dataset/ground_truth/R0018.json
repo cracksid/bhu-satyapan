@@ -1,0 +1,97 @@
+{
+  "record_id": "R0018",
+  "family_id": "F0009",
+  "role": "hissa",
+  "district": "पुणे",
+  "taluka": "हवेली",
+  "village": "देवगव्हाणवाडी",
+  "survey_number": "263",
+  "hissa_number": "4",
+  "khata_number": "401",
+  "total_area": 0.38,
+  "cultivable_area": 0.38,
+  "pot_kharaba": 0.0,
+  "assessment": 1.48,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "सुरेश नामदेव जगताप",
+      "share_area": 0.14,
+      "assessment_share": 0.54
+    },
+    {
+      "name": "कृष्णा गणेश गायकवाड",
+      "share_area": 0.14,
+      "assessment_share": 0.55
+    },
+    {
+      "name": "वत्सला अनिल गायकवाड",
+      "share_area": 0.1,
+      "assessment_share": 0.39
+    }
+  ],
+  "other_rights": [
+    "विविध कार्यकारी सोसायटी कर्ज रु. 150000",
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1146",
+      "date": "2004-11-16",
+      "type": "sale",
+      "from_owner": "राम बाळासाहेब देशमुख",
+      "to_owner": "वत्सला अनिल गायकवाड",
+      "area": 0.24
+    },
+    {
+      "mutation_number": "1415",
+      "date": "2008-12-08",
+      "type": "sale",
+      "from_owner": "राम बाळासाहेब देशमुख",
+      "to_owner": "सुरेश नामदेव जगताप",
+      "area": 0.14
+    },
+    {
+      "mutation_number": "1657",
+      "date": "2009-12-28",
+      "type": "sale",
+      "from_owner": "वत्सला अनिल गायकवाड",
+      "to_owner": "कृष्णा गणेश गायकवाड",
+      "area": 0.14
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.31,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 0.18,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 0.21,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 0.36,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0014",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0018.jpg"
+}

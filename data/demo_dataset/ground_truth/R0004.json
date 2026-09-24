@@ -1,0 +1,94 @@
+{
+  "record_id": "R0004",
+  "family_id": "F0002",
+  "role": "parent",
+  "district": "कोल्हापूर",
+  "taluka": "कागल",
+  "village": "बोरमाळवाडी",
+  "survey_number": "21",
+  "hissa_number": null,
+  "khata_number": "266",
+  "total_area": 3.43,
+  "cultivable_area": 3.31,
+  "pot_kharaba": 0.12,
+  "assessment": 14.69,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "अशोक रमेश राऊत",
+      "share_area": 2.05,
+      "assessment_share": 8.78
+    },
+    {
+      "name": "वत्सला बबन चव्हाण",
+      "share_area": 0.94,
+      "assessment_share": 4.03
+    },
+    {
+      "name": "यशवंत विठ्ठल तांबे",
+      "share_area": 0.44,
+      "assessment_share": 1.88
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 20000",
+    "कूळ: तुकाराम सुरेश जाधव"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2023",
+      "date": "2005-03-09",
+      "type": "sale",
+      "from_owner": "वत्सला बबन चव्हाण",
+      "to_owner": "तुकाराम शिवाजी चव्हाण",
+      "area": 2.05
+    },
+    {
+      "mutation_number": "2150",
+      "date": "2009-02-14",
+      "type": "inheritance",
+      "from_owner": "तुकाराम शिवाजी चव्हाण",
+      "to_owner": "अशोक रमेश राऊत",
+      "area": 2.05
+    },
+    {
+      "mutation_number": "2196",
+      "date": "2011-01-29",
+      "type": "gift",
+      "from_owner": "वत्सला बबन चव्हाण",
+      "to_owner": "यशवंत विठ्ठल तांबे",
+      "area": 0.44
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 1.41,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 3.11,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 2.03,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0005",
+    "R0006",
+    "R0007"
+  ],
+  "defects": [],
+  "image_file": "images/R0004.jpg"
+}

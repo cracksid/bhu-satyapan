@@ -1,0 +1,85 @@
+{
+  "record_id": "R0010",
+  "family_id": "F0005",
+  "role": "parent",
+  "district": "पुणे",
+  "taluka": "जुन्नर",
+  "village": "सोनखेडवाडी",
+  "survey_number": "422",
+  "hissa_number": null,
+  "khata_number": "824",
+  "total_area": 2.05,
+  "cultivable_area": 1.94,
+  "pot_kharaba": 0.11,
+  "assessment": 6.95,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "सुरेश नामदेव थोरात",
+      "share_area": 1.3,
+      "assessment_share": 4.41
+    },
+    {
+      "name": "तुकाराम नामदेव माने",
+      "share_area": 0.75,
+      "assessment_share": 2.54
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 165000",
+    "कूळ: मंगल अनिल दाभाडे"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2185",
+      "date": "2006-01-03",
+      "type": "partition",
+      "from_owner": "लक्ष्मी भास्कर जगताप",
+      "to_owner": "रमेश अशोक राऊत",
+      "area": 1.3
+    },
+    {
+      "mutation_number": "2327",
+      "date": "2010-01-25",
+      "type": "gift",
+      "from_owner": "रमेश अशोक राऊत",
+      "to_owner": "सुरेश नामदेव थोरात",
+      "area": 1.3
+    },
+    {
+      "mutation_number": "2510",
+      "date": "2012-06-30",
+      "type": "inheritance",
+      "from_owner": "लक्ष्मी भास्कर जगताप",
+      "to_owner": "तुकाराम नामदेव माने",
+      "area": 0.75
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 0.78,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "हरभरा",
+      "area": 1.65,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 1.03,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0010.jpg"
+}

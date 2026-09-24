@@ -1,0 +1,106 @@
+{
+  "record_id": "R0020",
+  "family_id": "F0010",
+  "role": "hissa",
+  "district": "कोल्हापूर",
+  "taluka": "कागल",
+  "village": "करंजतळे",
+  "survey_number": "96",
+  "hissa_number": "1",
+  "khata_number": "651",
+  "total_area": 1.56,
+  "cultivable_area": 1.39,
+  "pot_kharaba": 0.17,
+  "assessment": 3.06,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "इंदुबाई महादेव मोरे",
+      "share_area": 0.8,
+      "assessment_share": 1.57
+    },
+    {
+      "name": "भास्कर यशवंत काळे",
+      "share_area": 0.76,
+      "assessment_share": 1.49
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2392",
+      "date": "2001-02-04",
+      "type": "gift",
+      "from_owner": "नामदेव दिलीप शिंदे",
+      "to_owner": "वत्सला महादेव सावंत",
+      "area": 1.56
+    },
+    {
+      "mutation_number": "2546",
+      "date": "2003-09-16",
+      "type": "partition",
+      "from_owner": "वत्सला महादेव सावंत",
+      "to_owner": "प्रकाश अशोक पाटील",
+      "area": 1.56
+    },
+    {
+      "mutation_number": "2733",
+      "date": "2007-09-23",
+      "type": "sale",
+      "from_owner": "प्रकाश अशोक पाटील",
+      "to_owner": "भास्कर यशवंत काळे",
+      "area": 0.76
+    },
+    {
+      "mutation_number": "2824",
+      "date": "2008-12-04",
+      "type": "sale",
+      "from_owner": "प्रकाश अशोक पाटील",
+      "to_owner": "इंदुबाई महादेव मोरे",
+      "area": 0.8
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 1.1,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.58,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ऊस",
+      "area": 0.93,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 1.37,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "तूर",
+      "area": 1.31,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0019",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0020.jpg"
+}

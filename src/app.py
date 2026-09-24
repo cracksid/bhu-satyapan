@@ -36,7 +36,20 @@ from src.validation.config import RULES                      # noqa: E402
 from src.validation.engine import (evaluate, evaluate_batch,  # noqa: E402
                                    load_records)
 
-DATA_FOLDER = PROJECT_ROOT / "data" / "synthetic"
+def _data_folder() -> Path:
+    """Where the records live.
+
+    On your machine that is the full generated batch. On the hosted app there
+    is no generator, so it falls back to the small dataset committed to the
+    repository (see `python -m src.demo dataset`).
+    """
+    generated = PROJECT_ROOT / "data" / "synthetic" / "ground_truth"
+    if generated.is_dir() and any(generated.glob("*.json")):
+        return PROJECT_ROOT / "data" / "synthetic"
+    return PROJECT_ROOT / "data" / "demo_dataset"
+
+
+DATA_FOLDER = _data_folder()
 REVIEW_FILE = DATA_FOLDER / "review_state.json"
 
 COLOURS = {"green": "#2E7D32", "amber": "#C98A00", "red": "#C0392B"}

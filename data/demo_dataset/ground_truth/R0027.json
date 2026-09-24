@@ -1,0 +1,98 @@
+{
+  "record_id": "R0027",
+  "family_id": "F0012",
+  "role": "hissa",
+  "district": "सातारा",
+  "taluka": "कोरेगाव",
+  "village": "पिंपळतळे",
+  "survey_number": "372",
+  "hissa_number": "3",
+  "khata_number": "965",
+  "total_area": 0.77,
+  "cultivable_area": 0.77,
+  "pot_kharaba": 0.0,
+  "assessment": 1.33,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "हरिभाऊ राम भोसले",
+      "share_area": 0.36,
+      "assessment_share": 0.62
+    },
+    {
+      "name": "संतोष सखाराम निकम",
+      "share_area": 0.21,
+      "assessment_share": 0.36
+    },
+    {
+      "name": "प्रकाश विठ्ठल देशमुख",
+      "share_area": 0.2,
+      "assessment_share": 0.35
+    }
+  ],
+  "other_rights": [
+    "विविध कार्यकारी सोसायटी कर्ज रु. 255000",
+    "कूळ: यशवंत भास्कर देशमुख"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1158",
+      "date": "2003-10-30",
+      "type": "inheritance",
+      "from_owner": "रखमाबाई कृष्णा तांबे",
+      "to_owner": "यशवंत गणेश बनसोडे",
+      "area": 0.77
+    },
+    {
+      "mutation_number": "1357",
+      "date": "2005-03-02",
+      "type": "gift",
+      "from_owner": "यशवंत गणेश बनसोडे",
+      "to_owner": "संतोष सखाराम निकम",
+      "area": 0.77
+    },
+    {
+      "mutation_number": "1545",
+      "date": "2007-10-29",
+      "type": "sale",
+      "from_owner": "संतोष सखाराम निकम",
+      "to_owner": "हरिभाऊ राम भोसले",
+      "area": 0.36
+    },
+    {
+      "mutation_number": "1657",
+      "date": "2010-02-07",
+      "type": "partition",
+      "from_owner": "संतोष सखाराम निकम",
+      "to_owner": "प्रकाश विठ्ठल देशमुख",
+      "area": 0.2
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.69,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 0.5,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 0.59,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0024",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0027.jpg"
+}

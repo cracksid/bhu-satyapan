@@ -1,0 +1,90 @@
+{
+  "record_id": "R0009",
+  "family_id": "F0004",
+  "role": "parent",
+  "district": "अहिल्यानगर",
+  "taluka": "पारनेर",
+  "village": "पिंपळतळे",
+  "survey_number": "170",
+  "hissa_number": null,
+  "khata_number": "525",
+  "total_area": 1.41,
+  "cultivable_area": 1.3,
+  "pot_kharaba": 0.11,
+  "assessment": 2.23,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "शांता भास्कर दाभाडे",
+      "share_area": 0.87,
+      "assessment_share": 1.37
+    },
+    {
+      "name": "भास्कर नामदेव पवार",
+      "share_area": 0.32,
+      "assessment_share": 0.51
+    },
+    {
+      "name": "शांता हरिभाऊ कुलकर्णी",
+      "share_area": 0.22,
+      "assessment_share": 0.35
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1330",
+      "date": "2006-08-20",
+      "type": "sale",
+      "from_owner": "अनिल प्रकाश घाडगे",
+      "to_owner": "सुनील प्रकाश बनसोडे",
+      "area": 1.41
+    },
+    {
+      "mutation_number": "1514",
+      "date": "2010-08-01",
+      "type": "gift",
+      "from_owner": "सुनील प्रकाश बनसोडे",
+      "to_owner": "शांता हरिभाऊ कुलकर्णी",
+      "area": 0.54
+    },
+    {
+      "mutation_number": "1679",
+      "date": "2011-08-09",
+      "type": "sale",
+      "from_owner": "शांता हरिभाऊ कुलकर्णी",
+      "to_owner": "भास्कर नामदेव पवार",
+      "area": 0.32
+    },
+    {
+      "mutation_number": "1711",
+      "date": "2012-12-22",
+      "type": "inheritance",
+      "from_owner": "सुनील प्रकाश बनसोडे",
+      "to_owner": "शांता भास्कर दाभाडे",
+      "area": 0.87
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 1.13,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.88,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0009.jpg"
+}

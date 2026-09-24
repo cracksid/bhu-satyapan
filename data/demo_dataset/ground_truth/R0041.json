@@ -1,0 +1,104 @@
+{
+  "record_id": "R0041",
+  "family_id": "F0016",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "राहुरी",
+  "village": "देवगव्हाणवाडी",
+  "survey_number": "165",
+  "hissa_number": "2",
+  "khata_number": "954",
+  "total_area": 0.9,
+  "cultivable_area": 0.9,
+  "pot_kharaba": 0.0,
+  "assessment": 2.38,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "गणेश भास्कर साळुंखे",
+      "share_area": 0.43,
+      "assessment_share": 1.14
+    },
+    {
+      "name": "अनिल सखाराम साळुंखे",
+      "share_area": 0.31,
+      "assessment_share": 0.82
+    },
+    {
+      "name": "सुरेश अनिल सावंत",
+      "share_area": 0.16,
+      "assessment_share": 0.42
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1184",
+      "date": "2002-07-17",
+      "type": "gift",
+      "from_owner": "यशवंत तुकाराम पाटील",
+      "to_owner": "सुरेश अनिल सावंत",
+      "area": 0.47
+    },
+    {
+      "mutation_number": "1387",
+      "date": "2006-01-29",
+      "type": "partition",
+      "from_owner": "सुरेश अनिल सावंत",
+      "to_owner": "सरस्वती महादेव जगताप",
+      "area": 0.31
+    },
+    {
+      "mutation_number": "1570",
+      "date": "2009-04-04",
+      "type": "partition",
+      "from_owner": "यशवंत तुकाराम पाटील",
+      "to_owner": "गणेश भास्कर साळुंखे",
+      "area": 0.43
+    },
+    {
+      "mutation_number": "1598",
+      "date": "2010-08-15",
+      "type": "gift",
+      "from_owner": "सरस्वती महादेव जगताप",
+      "to_owner": "अनिल सखाराम साळुंखे",
+      "area": 0.31
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 0.45,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "गहू",
+      "area": 0.44,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.89,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.87,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0039",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0041.jpg"
+}

@@ -1,0 +1,78 @@
+{
+  "record_id": "R0019",
+  "family_id": "F0010",
+  "role": "parent",
+  "district": "कोल्हापूर",
+  "taluka": "कागल",
+  "village": "करंजतळे",
+  "survey_number": "96",
+  "hissa_number": null,
+  "khata_number": "715",
+  "total_area": 2.83,
+  "cultivable_area": 2.59,
+  "pot_kharaba": 0.24,
+  "assessment": 11.41,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "कमल हरिभाऊ जाधव",
+      "share_area": 1.6,
+      "assessment_share": 6.45
+    },
+    {
+      "name": "कलावती कृष्णा बनसोडे",
+      "share_area": 1.23,
+      "assessment_share": 4.96
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1043",
+      "date": "2006-01-22",
+      "type": "inheritance",
+      "from_owner": "हरिभाऊ विठ्ठल घाडगे",
+      "to_owner": "कलावती कृष्णा बनसोडे",
+      "area": 2.83
+    },
+    {
+      "mutation_number": "1231",
+      "date": "2009-10-03",
+      "type": "gift",
+      "from_owner": "कलावती कृष्णा बनसोडे",
+      "to_owner": "कमल हरिभाऊ जाधव",
+      "area": 1.6
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 1.38,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 1.61,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 1.39,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0020",
+    "R0021",
+    "R0022"
+  ],
+  "defects": [],
+  "image_file": "images/R0019.jpg"
+}

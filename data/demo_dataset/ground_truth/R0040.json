@@ -1,0 +1,86 @@
+{
+  "record_id": "R0040",
+  "family_id": "F0016",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "राहुरी",
+  "village": "देवगव्हाणवाडी",
+  "survey_number": "165",
+  "hissa_number": "1",
+  "khata_number": "561",
+  "total_area": 1.53,
+  "cultivable_area": 1.53,
+  "pot_kharaba": 0.0,
+  "assessment": 2.66,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "सुनील सखाराम तांबे",
+      "share_area": 0.89,
+      "assessment_share": 1.55
+    },
+    {
+      "name": "सरस्वती कृष्णा निकम",
+      "share_area": 0.64,
+      "assessment_share": 1.11
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1184",
+      "date": "2005-05-23",
+      "type": "gift",
+      "from_owner": "रघुनाथ यशवंत घाडगे",
+      "to_owner": "रघुनाथ सुरेश राऊत",
+      "area": 0.64
+    },
+    {
+      "mutation_number": "1319",
+      "date": "2007-04-16",
+      "type": "inheritance",
+      "from_owner": "रघुनाथ सुरेश राऊत",
+      "to_owner": "सरस्वती कृष्णा निकम",
+      "area": 0.64
+    },
+    {
+      "mutation_number": "1552",
+      "date": "2010-02-24",
+      "type": "gift",
+      "from_owner": "रघुनाथ यशवंत घाडगे",
+      "to_owner": "सुनील सखाराम तांबे",
+      "area": 0.89
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.96,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 1.35,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0039",
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "duplicate_record",
+      "record_id": "R0040",
+      "detail": "survey number 165 hissa 1 in देवगव्हाणवाडी is recorded twice: on R0040 and on R0204",
+      "fields": [
+        "village",
+        "survey_number",
+        "hissa_number"
+      ]
+    }
+  ],
+  "image_file": "images/R0040.jpg"
+}

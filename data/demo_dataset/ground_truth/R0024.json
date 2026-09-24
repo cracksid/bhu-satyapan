@@ -1,0 +1,116 @@
+{
+  "record_id": "R0024",
+  "family_id": "F0012",
+  "role": "parent",
+  "district": "सातारा",
+  "taluka": "कोरेगाव",
+  "village": "पिंपळतळे",
+  "survey_number": "372",
+  "hissa_number": null,
+  "khata_number": "639",
+  "total_area": 3.49,
+  "cultivable_area": 3.33,
+  "pot_kharaba": 0.16,
+  "assessment": 6.35,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "संतोष रमेश भोसले",
+      "share_area": 3.49,
+      "assessment_share": 6.35
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 25000",
+    "रस्ता हक्क"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2563",
+      "date": "2006-05-21",
+      "type": "sale",
+      "from_owner": "तुकाराम सुरेश जगताप",
+      "to_owner": "शोभा प्रकाश शिंदे",
+      "area": 3.89
+    },
+    {
+      "mutation_number": "2838",
+      "date": "2007-07-22",
+      "type": "inheritance",
+      "from_owner": "शोभा प्रकाश शिंदे",
+      "to_owner": "तुकाराम सखाराम काळे",
+      "area": 3.89
+    },
+    {
+      "mutation_number": "3038",
+      "date": "2008-02-10",
+      "type": "gift",
+      "from_owner": "तुकाराम सखाराम काळे",
+      "to_owner": "संतोष रमेश भोसले",
+      "area": 3.89
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 2.29,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 2.03,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 1.59,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "गहू",
+      "area": 3.35,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 3.31,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 1.57,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0025",
+    "R0026",
+    "R0027",
+    "R0028"
+  ],
+  "defects": [
+    {
+      "type": "hissa_area_mismatch",
+      "record_id": "R0024",
+      "detail": "parent area is 3.49 ha but its 4 hissa records add up to 3.89 ha",
+      "fields": [
+        "total_area",
+        "hissa_record_ids"
+      ]
+    }
+  ],
+  "image_file": "images/R0024.jpg"
+}
