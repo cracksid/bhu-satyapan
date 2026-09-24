@@ -1,0 +1,20 @@
+# Python packages for the Land Record Validation System (SIH26018).
+#
+# Install them INSIDE the activated virtual environment:
+#     python -m pip install -r requirements.txt
+#
+# Versions are pinned (==) so a setup that works today keeps working.
+# Tested with Python 3.14.7 on Windows 11.
+# Tesseract itself is a separate Windows program: see README step 3.
+
+numpy==2.5.3                         # number arrays; an image is an array of pixels
+pillow==12.3.0                       # draw, open and save images
+opencv-python-headless==4.14.0.94    # image processing (blur, deskew, table lines); headless = no pop-up windows
+pytesseract==0.3.13                  # lets Python run the Tesseract OCR program
+streamlit==1.64.0                    # the web user interface (Phase 3)
+pandas==3.0.6                        # tables for the UI (comes with streamlit, pinned here because we import it)
+pytest==9.1.1                        # automated tests (Phase 2)
+playwright==1.63.0                   # headless browser that draws the synthetic 7/12 pages
+
+# Playwright also needs its browser, downloaded once (about 300 MB):
+#     python -m playwright install chromium

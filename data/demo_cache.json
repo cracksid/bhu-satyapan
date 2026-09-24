@@ -1,0 +1,233 @@
+{
+ "R0001": {
+  "record_id": "R0001",
+  "district": "अहिल्यानगर",
+  "taluka": "श्रीगोंदा",
+  "village": "रानतळेवाडी",
+  "survey_number": "391",
+  "hissa_number": null,
+  "khata_number": "840",
+  "total_area": 1.47,
+  "cultivable_area": 1.47,
+  "pot_kharaba": 0.0,
+  "assessment": 4.21,
+  "tenure_class": 2,
+  "owners": [
+   {
+    "name": "रखमाबाई प्रकाश शेलार",
+    "share_area": 0.67,
+    "assessment_share": null,
+    "_confidence": {
+     "name": 84.66666666666667,
+     "share_area": 94.0
+    }
+   },
+   {
+    "name": "सुनंदा रघुनाथ साळुंखे",
+    "share_area": 45.0,
+    "assessment_share": 1.2,
+    "_confidence": {
+     "name": 95.33333333333333,
+     "share_area": 0.0
+    }
+   },
+   {
+    "name": "सुरेश सुनील कुलकर्णी",
+    "share_area": 0.35,
+    "assessment_share": 2.0,
+    "_confidence": {
+     "name": 93.66666666666667,
+     "share_area": 0.0
+    }
+   }
+  ],
+  "other_rights": [],
+  "mutations": [
+   {
+    "mutation_number": "1084",
+    "date": "1999-11-14",
+    "type": "बक्षीसपत्र",
+    "from_owner": "सुनंदा रघुनाथ साळुंखे",
+    "to_owner": "रखमाबाई प्रकाश शेलार",
+    "area": 0.67,
+    "_confidence": {
+     "mutation_number": 94.0,
+     "date": 96.0,
+     "from_owner": 94.33333333333333,
+     "to_owner": 94.33333333333333,
+     "area": 93.0
+    }
+   },
+   {
+    "mutation_number": "1109",
+    "date": "2001-10-28",
+    "type": "वाटप",
+    "from_owner": "सुनंदा रघुनाथ साळुंखे",
+    "to_owner": "सुरेश सुनील कुलकर्णी",
+    "area": 0.35,
+    "_confidence": {
+     "mutation_number": 96.0,
+     "date": 90.0,
+     "from_owner": 95.0,
+     "to_owner": 95.0,
+     "area": 94.0
+    }
+   }
+  ],
+  "crops": [
+   {
+    "year": "२०२२-२२",
+    "season": "खरीप",
+    "crop": "हरभरा",
+    "area": 1.33,
+    "irrigation": "जिरायत"
+   },
+   {
+    "year": "२०२२-२४",
+    "season": "खरीप",
+    "crop": "सोयाबीन",
+    "area": 1.26,
+    "irrigation": "जिरायत"
+   }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [],
+  "_confidence": {
+   "village": 89.33333333333333,
+   "taluka": 92.33333333333333,
+   "district": 91.0,
+   "record_id": 90.0,
+   "survey_number": 93.83333333333333,
+   "khata_number": 93.5,
+   "tenure_class": 86.6,
+   "total_area": 73.66666666666667,
+   "cultivable_area": 73.66666666666667,
+   "pot_kharaba": 73.66666666666667,
+   "assessment": 73.66666666666667
+  },
+  "_ocr": {
+   "deskew_angle": -0.9,
+   "cells": 72,
+   "seconds": 11.0,
+   "mean_confidence": 84.7
+  }
+ },
+ "R0003": {
+  "record_id": "R0003",
+  "district": "अहिल्यानगर",
+  "taluka": "श्रीगोंदा",
+  "village": "रानतळेवाडी",
+  "survey_number": "391",
+  "hissa_number": "2",
+  "khata_number": "756",
+  "total_area": 1.03,
+  "cultivable_area": 1.03,
+  "pot_kharaba": 7.0,
+  "assessment": 2.38,
+  "tenure_class": 1,
+  "owners": [
+   {
+    "name": "सखाराम दिलीप माने",
+    "share_area": 1.03,
+    "assessment_share": 2.38,
+    "_confidence": {
+     "name": 95.66666666666667,
+     "share_area": 86.0
+    }
+   }
+  ],
+  "other_rights": [],
+  "mutations": [
+   {
+    "mutation_number": "1438",
+    "date": "2002-11-02",
+    "type": "वाटप",
+    "from_owner": "गणेश बबन साळुंखे",
+    "to_owner": "बबन दत्तात्रय घाडगे",
+    "area": 1.03,
+    "_confidence": {
+     "mutation_number": 0.0,
+     "date": 96.0,
+     "from_owner": 88.33333333333333,
+     "to_owner": 95.33333333333333,
+     "area": 77.0
+    }
+   },
+   {
+    "mutation_number": "1494",
+    "date": "2004-11-17",
+    "type": "वारस नोंद",
+    "from_owner": "दत्तात्रय विठठूल जाधव",
+    "to_owner": "सखाराम दिलीप माने",
+    "area": 1.03,
+    "_confidence": {
+     "mutation_number": 95.0,
+     "date": 96.0,
+     "from_owner": 82.66666666666667,
+     "to_owner": 95.33333333333333,
+     "area": 0.0
+    }
+   }
+  ],
+  "crops": [
+   {
+    "year": "२०२२-२२",
+    "season": "खरीप",
+    "crop": "ऊस",
+    "area": 0.92,
+    "irrigation": "बागायत"
+   },
+   {
+    "year": "२०२३-२४",
+    "season": "खरीप",
+    "crop": "हरभरा",
+    "area": 0.45,
+    "irrigation": "बागायत"
+   },
+   {
+    "year": "२०२२-२४",
+    "season": "Teal",
+    "crop": "ऊस",
+    "area": 0.82,
+    "irrigation": "बागायत"
+   },
+   {
+    "year": "२०२४-२५",
+    "season": "खरीप",
+    "crop": "",
+    "area": 0.58,
+    "irrigation": "जिरायत"
+   },
+   {
+    "year": "२०२४-२५",
+    "season": "रब्बी",
+    "crop": "तूर",
+    "area": 0.75,
+    "irrigation": "बागायत"
+   }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [],
+  "_confidence": {
+   "village": 91.0,
+   "taluka": 92.0,
+   "district": 91.0,
+   "record_id": 85.0,
+   "survey_number": 92.33333333333333,
+   "khata_number": 93.75,
+   "tenure_class": 85.4,
+   "total_area": 80.0,
+   "cultivable_area": 80.0,
+   "pot_kharaba": 0.0,
+   "assessment": 80.0
+  },
+  "_ocr": {
+   "deskew_angle": -0.5,
+   "cells": 75,
+   "seconds": 11.9,
+   "mean_confidence": 79.1
+  }
+ }
+}

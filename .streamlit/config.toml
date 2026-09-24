@@ -1,0 +1,20 @@
+# Streamlit settings for this project.
+#
+# The light theme is fixed on purpose: the app should look the same on any
+# machine, and screenshots for the presentation have to read well on a white
+# slide, whatever theme the laptop happens to be using.
+
+[theme]
+base = "light"
+primaryColor = "#0070C0"          # the SIH blue used in the deck
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F6FB"
+textColor = "#1A1A1A"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# Hides the "Deploy" button and the developer menu, so a demo screen shows
+# only the application.
+toolbarMode = "minimal"

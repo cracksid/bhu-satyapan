@@ -1,0 +1,20 @@
+# Files and folders git should never track.
+
+# Virtual environment: every machine creates its own (README step 2)
+.venv/
+
+# Python's cache files
+__pycache__/
+.pytest_cache/
+
+# Real 7/12 extracts contain real people's names. NEVER commit them.
+data/real/
+
+# Generated images are large and can be rebuilt from the generator at any time:
+#     python -m src.generator.generate
+data/synthetic/images/
+data/synthetic/ground_truth/
+data/synthetic/manifest.json
+
+# The more accurate Marathi OCR model (13 MB), downloaded once - see README step 3b
+data/tessdata_best/
