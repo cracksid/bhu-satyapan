@@ -4,15 +4,15 @@ Run it from the project folder, with the virtual environment active:
 
     streamlit run src/app.py
 
-Three pages:
+Four pages:
 
   * Review queue - every record, worst first, so an official knows what to open
   * Record       - the scan beside the fields, the risk score, and every check
+  * Check a scan - the same pipeline run on a page the user uploads
   * Dashboard    - how much has been processed, what is flagged, and where
 
-For now the fields come from the ground-truth JSON. In Phase 4 the same
-screens will show what the OCR actually read, with low-confidence fields
-shaded - nothing else about these pages has to change.
+On the Record page the fields come either from the record as filed or from
+what OCR actually read, and the rows OCR was least sure of are shaded.
 
 The tool never edits a land record. It only flags records for a human.
 """
@@ -28,11 +28,13 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+import altair as alt                                        # noqa: E402
 import pandas as pd                                          # noqa: E402
 import streamlit as st                                       # noqa: E402
 
 from src import demo                                          # noqa: E402
 from src.validation.config import RULES                      # noqa: E402
+from src.validation.rules import FAIL, PASS                  # noqa: E402
 from src.validation.engine import (evaluate, evaluate_batch,  # noqa: E402
                                    load_records)
 
@@ -53,6 +55,64 @@ DATA_FOLDER = _data_folder()
 REVIEW_FILE = DATA_FOLDER / "review_state.json"
 
 COLOURS = {"green": "#2E7D32", "amber": "#C98A00", "red": "#C0392B"}
+INK, MUTED, NAVY = "#12263F", "#5A6472", "#1F4E79"
+TINTS = {"green": "#E7F3E9", "amber": "#FDF3DE", "red": "#FBE3E0", "grey": "#EFF2F6"}
+
+# One place for the look of the app. Streamlit's defaults are serviceable but
+# plain; this adds cards, pills and a little breathing room, and nothing here
+# changes what the app does.
+STYLE = """
+<style>
+  .block-container { padding-top: 2rem; padding-bottom: 3rem; max-width: 1500px; }
+  header[data-testid="stHeader"] { background: transparent; }
+
+  .bs-title { font-size: 30px; font-weight: 700; color: #12263F;
+              letter-spacing: -0.4px; line-height: 1.2; margin-bottom: 2px; }
+  .bs-sub { color: #5A6472; font-size: 14px; margin-bottom: 4px; }
+
+  .bs-kpi { background: #FFFFFF; border: 1px solid #E3E9F2; border-radius: 12px;
+            padding: 14px 16px 12px 16px; height: 100%; }
+  .bs-kpi .kpi-label { font-size: 11.5px; color: #5A6472; font-weight: 500;
+                       letter-spacing: 0.6px; text-transform: uppercase; }
+  .bs-kpi .kpi-value { font-size: 30px; font-weight: 700; line-height: 1.2;
+                       margin-top: 2px; }
+  .bs-kpi .kpi-note { font-size: 12px; color: #5A6472; }
+
+  .bs-chip { display: inline-block; padding: 4px 11px; border-radius: 999px;
+             font-size: 12px; font-weight: 500; margin: 0 6px 7px 0; }
+
+  .bs-card { background: #FFFFFF; border: 1px solid #E3E9F2; border-radius: 12px;
+             padding: 16px 18px; margin-bottom: 10px; }
+  .bs-section { font-size: 13px; font-weight: 600; color: #12263F;
+                text-transform: uppercase; letter-spacing: 0.7px;
+                margin: 6px 0 8px 0; }
+</style>
+"""
+
+
+def kpi(container, label: str, value, colour: str = INK, note: str = ""):
+    """One number in a card. Used across the queue and the dashboard."""
+    container.markdown(
+        f'<div class="bs-kpi"><div class="kpi-label">{label}</div>'
+        f'<div class="kpi-value" style="color:{colour}">{value}</div>'
+        f'<div class="kpi-note">{note}</div></div>',
+        unsafe_allow_html=True)
+
+
+def check_chips(report):
+    """All six checks at a glance: green passed, red failed, grey not checked."""
+    pieces = []
+    for result in report.results:
+        if result.status == FAIL:
+            tint, colour, mark = TINTS["red"], COLOURS["red"], "✕"
+        elif result.status == PASS:
+            tint, colour, mark = TINTS["green"], COLOURS["green"], "✓"
+        else:
+            tint, colour, mark = TINTS["grey"], MUTED, "–"
+        short = result.rule_id.split("_", 1)[0]
+        pieces.append(f'<span class="bs-chip" style="background:{tint};color:{colour}" '
+                      f'title="{result.title}">{mark} {short}</span>')
+    st.markdown("".join(pieces), unsafe_allow_html=True)
 
 
 # --------------------------------------------------------------------------
@@ -298,13 +358,35 @@ def field_tables(record: dict, confidences: dict | None = None):
 # --------------------------------------------------------------------------
 # pages
 # --------------------------------------------------------------------------
+# A coloured dot in front of the band, so the queue can be read at a glance.
+BAND_DOTS = {"High": "🔴 High", "Medium": "🟠 Medium",
+             "Low": "🟢 Low"}
+
+
 def page_queue(records, reports, reviews):
-    st.subheader("Review queue")
-    st.caption("Every record, highest dispute risk first. Select a row to open it.")
+    st.markdown('<div class="bs-section">Review queue</div>', unsafe_allow_html=True)
+    st.caption("Every record, highest dispute risk first. Click a row to open it.")
 
     table = queue_table(records, reports, reviews)
+    total = len(table)
+    flagged = int((table["Failed checks"] > 0).sum())
+    high = int((table["Band"] == "High").sum())
+    pending = int((table["Status"] == "Pending").sum())
 
-    left, middle, right = st.columns(3)
+    tiles = st.columns(4)
+    kpi(tiles[0], "Records", total, NAVY, "in this batch")
+    kpi(tiles[1], "Flagged", flagged, COLOURS["amber"],
+        f"{flagged / total * 100:.0f}% of the batch" if total else "")
+    kpi(tiles[2], "High risk", high, COLOURS["red"], "open these first")
+    kpi(tiles[3], "Reviewed", total - pending, COLOURS["green"],
+        f"{pending} still pending")
+    st.write("")
+
+    search = st.text_input(
+        "Search", placeholder="Search a record id, village, taluka or survey number",
+        label_visibility="collapsed")
+
+    left, middle, right = st.columns([1.2, 1.2, 1])
     bands = left.multiselect("Risk band", ["High", "Medium", "Low"],
                              default=["High", "Medium", "Low"])
     districts = middle.multiselect("District", sorted(table["District"].unique()))
@@ -315,13 +397,29 @@ def page_queue(records, reports, reviews):
         shown = shown[shown["District"].isin(districts)]
     if only_pending:
         shown = shown[shown["Status"] == "Pending"]
+    if search.strip():
+        # Match the typed text anywhere in the row: id, village, survey number.
+        needle = search.strip().lower()
+        keep = shown.apply(
+            lambda row: needle in " ".join(str(cell).lower() for cell in row), axis=1)
+        shown = shown[keep]
 
-    st.write(f"**{len(shown)}** of {len(table)} records")
+    if shown.empty:
+        st.info("No record matches those filters. Widen them to see more.")
+        return
+
+    st.caption(f"Showing **{len(shown)}** of {total} records")
+    display = shown.copy()
+    display["Band"] = display["Band"].map(BAND_DOTS)
     event = st.dataframe(
-        shown, hide_index=True, use_container_width=True, height=430,
+        display, hide_index=True, use_container_width=True, height=430,
         on_select="rerun", selection_mode="single-row",
-        column_config={"Risk": st.column_config.ProgressColumn(
-            "Risk", min_value=0, max_value=100, format="%d")},
+        column_config={
+            "Risk": st.column_config.ProgressColumn(
+                "Risk", help="Dispute-risk score out of 100",
+                min_value=0, max_value=100, format="%d"),
+            "Failed checks": st.column_config.NumberColumn("Failed", width="small"),
+        },
     )
     if event.selection.rows:
         st.session_state["record_id"] = shown.iloc[event.selection.rows[0]]["Record"]
@@ -384,6 +482,7 @@ def page_record(records, reports, reviews):
                 f"{meta.get('mean_confidence', '?')}. Shaded rows are the ones "
                 f"OCR was least sure of; nothing here is corrected automatically.")
         risk_banner(report)
+        check_chips(report)
         show_checks(report)
         field_tables(record, confidences)
 
@@ -394,17 +493,21 @@ def page_record(records, reports, reviews):
                     + (f" — {decided['note']}" if decided["note"] else ""))
         note = st.text_input("Reviewer note (optional)", key=f"note_{chosen}")
         accept, correct = st.columns(2)
+        # The message is kept in session state and shown after the rerun,
+        # otherwise the page redraws before the toast has been seen.
         if accept.button("Mark as reviewed", use_container_width=True):
             save_review(chosen, "Reviewed", note)
+            st.session_state["flash"] = f"{chosen} marked as reviewed"
             st.rerun()
         if correct.button("Needs correction", type="primary", use_container_width=True):
             save_review(chosen, "Needs correction", note)
+            st.session_state["flash"] = f"{chosen} sent for correction"
             st.rerun()
         st.caption("Recording a decision never changes the land record itself.")
 
 
 def page_upload(records, reports, reviews):
-    st.subheader("Check a scan")
+    st.markdown('<div class="bs-section">Check a scan</div>', unsafe_allow_html=True)
     st.caption("Upload a 7/12 extract and the system reads it, checks it, and "
                "scores it — the same pipeline the sample records go through.")
 
@@ -440,6 +543,7 @@ def page_upload(records, reports, reviews):
                    f"cells, straightened by {meta.get('deskew_angle', 0)}°, mean "
                    f"confidence {meta.get('mean_confidence', '?')}.")
         risk_banner(report)
+        check_chips(report)
         show_checks(report)
         field_tables(record, record.get("_confidence", {}))
 
@@ -449,69 +553,105 @@ def page_upload(records, reports, reviews):
 
 
 def page_dashboard(records, reports, reviews):
-    st.subheader("Dashboard")
-    table = queue_table(records, reports, reviews)
+    st.markdown('<div class="bs-section">Dashboard</div>', unsafe_allow_html=True)
+    st.caption("How much of the batch has been processed, what is flagged, "
+               "and which check is failing most often.")
 
+    table = queue_table(records, reports, reviews)
+    total = len(table)
     flagged = table[table["Failed checks"] > 0]
     pending = flagged[flagged["Status"] == "Pending"]
-    columns = st.columns(5)
-    columns[0].metric("Records processed", len(table))
-    columns[1].metric("Clean", len(table) - len(flagged))
-    columns[2].metric("Flagged", len(flagged))
-    columns[3].metric("High risk", int((table["Band"] == "High").sum()))
-    columns[4].metric("Pending verification", len(pending))
 
-    left, right = st.columns(2)
+    tiles = st.columns(5)
+    kpi(tiles[0], "Processed", total, NAVY, "records scored")
+    kpi(tiles[1], "Clean", total - len(flagged), COLOURS["green"], "no check failed")
+    kpi(tiles[2], "Flagged", len(flagged), COLOURS["amber"], "at least one failure")
+    kpi(tiles[3], "High risk", int((table["Band"] == "High").sum()), COLOURS["red"],
+        "score 20 or more")
+    kpi(tiles[4], "Pending", len(pending), INK, "awaiting a reviewer")
+    st.write("")
+
+    left, right = st.columns([1.35, 1])
+
     with left:
-        st.markdown("**Error statistics — how often each check fails**")
+        st.markdown('<div class="bs-section">Which check fails most often</div>',
+                    unsafe_allow_html=True)
         counts = []
-        for rule_id, rule in RULES.items():
+        for rule_id in RULES:
             failures = sum(1 for report in reports.values()
                            if any(r.rule_id == rule_id for r in report.failed))
             # Short labels: the full titles do not fit on a chart axis.
-            short = rule_id.split("_", 1)[0] + " " + rule_id.split("_", 1)[1].replace("_", " ")
-            counts.append({"Check": short, "Records failing": failures})
-        st.bar_chart(pd.DataFrame(counts).set_index("Check"), horizontal=True, height=260)
+            number, name = rule_id.split("_", 1)
+            counts.append({"Check": f"{number} {name.replace('_', ' ')}",
+                           "Failures": failures})
+        frame = pd.DataFrame(counts)
+        bars = alt.Chart(frame).mark_bar(
+            cornerRadiusEnd=4, color=NAVY, size=22).encode(
+            x=alt.X("Failures:Q", title=None, axis=alt.Axis(tickMinStep=1)),
+            y=alt.Y("Check:N", title=None, sort="-x"),
+            tooltip=["Check", "Failures"])
+        labels = bars.mark_text(align="left", dx=5, color=MUTED,
+                                fontSize=12).encode(text="Failures:Q")
+        st.altair_chart((bars + labels).properties(height=250),
+                        use_container_width=True)
 
     with right:
-        st.markdown("**District-wise progress**")
-        by_district = table.groupby("District").agg(
-            Records=("Record", "count"),
-            Flagged=("Failed checks", lambda values: int((values > 0).sum())),
-        )
-        by_district["Flagged %"] = (by_district["Flagged"] / by_district["Records"] * 100).round(1)
-        st.dataframe(by_district.sort_values("Records", ascending=False),
-                     use_container_width=True)
+        st.markdown('<div class="bs-section">Risk bands</div>', unsafe_allow_html=True)
+        band_counts = table["Band"].value_counts()
+        band_frame = pd.DataFrame({
+            "Band": ["Low", "Medium", "High"],
+            "Records": [int(band_counts.get(name, 0))
+                        for name in ["Low", "Medium", "High"]]})
+        donut = alt.Chart(band_frame).mark_arc(
+            innerRadius=58, stroke="#FFFFFF", strokeWidth=2).encode(
+            theta=alt.Theta("Records:Q", stack=True),
+            color=alt.Color("Band:N",
+                            scale=alt.Scale(
+                                domain=["Low", "Medium", "High"],
+                                range=[COLOURS["green"], COLOURS["amber"],
+                                       COLOURS["red"]]),
+                            legend=alt.Legend(title=None, orient="bottom")),
+            tooltip=["Band", "Records"])
+        # The total sits in the hole of the ring.
+        centre = alt.Chart(pd.DataFrame({"label": [f"{total} records"]})).mark_text(
+            fontSize=15, color=MUTED).encode(text="label:N")
+        st.altair_chart((donut + centre).properties(height=250),
+                        use_container_width=True)
 
-    # Three coloured counts rather than a chart: same colours as the record
-    # screen, and a bar chart puts the bands in alphabetical order.
-    st.markdown("**Risk bands**")
-    counts = table["Band"].value_counts()
-    for column, (label, colour_key) in zip(st.columns(3),
-                                           [("Low", "green"), ("Medium", "amber"),
-                                            ("High", "red")]):
-        count = int(counts.get(label, 0))
-        share = count / len(table) * 100 if len(table) else 0
-        column.markdown(
-            f"""
-            <div style="background:{COLOURS[colour_key]};color:white;border-radius:10px;
-                        padding:12px 16px;">
-              <div style="font-size:13px;opacity:.9;">{label.upper()}</div>
-              <div style="font-size:34px;font-weight:700;line-height:1.15;">{count}</div>
-              <div style="font-size:13px;">{share:.0f}% of records</div>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
+    st.markdown('<div class="bs-section">District-wise progress</div>',
+                unsafe_allow_html=True)
+    by_district = table.groupby("District").agg(
+        Records=("Record", "count"),
+        Flagged=("Failed checks", lambda values: int((values > 0).sum())),
+    )
+    by_district["Flagged %"] = (by_district["Flagged"] / by_district["Records"]
+                                * 100).round(1)
+    st.dataframe(
+        by_district.sort_values("Records", ascending=False),
+        use_container_width=True,
+        column_config={"Flagged %": st.column_config.ProgressColumn(
+            "Flagged %", min_value=0, max_value=100, format="%.0f%%")})
 
 
 # --------------------------------------------------------------------------
 def main():
     st.set_page_config(page_title="Bhu-Satyapan — 7/12 validation",
                        page_icon="📄", layout="wide")
-    st.title("Bhu-Satyapan")
-    st.caption("Reads a 7/12 extract, checks it for inconsistencies, and flags "
-               "the risky ones for a human. It never edits a land record.")
+    st.markdown(STYLE, unsafe_allow_html=True)
+
+    # A message left by the previous run (see the review buttons).
+    flash = st.session_state.pop("flash", None)
+    if flash:
+        st.toast(flash, icon="✅")
+
+    st.markdown(
+        '<div class="bs-title">Bhu-Satyapan '
+        '<span style="font-size:15px;font-weight:500;color:#5A6472;">'
+        '· 7/12 record validation</span></div>'
+        '<div class="bs-sub">Reads a 7/12 extract, checks it for '
+        'inconsistencies, and flags the risky ones for a human. '
+        'It never edits a land record.</div>',
+        unsafe_allow_html=True)
 
     try:
         records, reports = load_everything(str(DATA_FOLDER))
@@ -523,13 +663,23 @@ def main():
     pages = {"Review queue": page_queue, "Record": page_record,
              "Check a scan": page_upload, "Dashboard": page_dashboard}
     with st.sidebar:
-        st.header("Bhu-Satyapan")
-        choice = st.radio("Page", list(pages),
+        st.markdown('<div class="bs-title" style="font-size:21px;">Bhu-Satyapan</div>'
+                    '<div class="bs-sub">भू-सत्या'
+                    'पन · 7/12 validation</div>',
+                    unsafe_allow_html=True)
+        choice = st.radio("Page", list(pages), label_visibility="collapsed",
                           index=list(pages).index(st.session_state.get("page", "Review queue")))
         st.session_state["page"] = choice
         st.divider()
-        st.caption(f"{len(records)} records loaded from `data/synthetic`.\n\n"
-                   "On the Record page you can switch between the record as "
+
+        # A live summary, so the size of the batch is visible from any page.
+        flagged = sum(1 for report in reports.values() if report.failed)
+        high = sum(1 for report in reports.values() if report.band_label == "High")
+        st.markdown(f"**{len(records)}** records loaded  \n"
+                    f"**{flagged}** flagged · **{high}** high risk")
+        st.progress(flagged / len(records) if records else 0.0,
+                    text="share of the batch flagged")
+        st.caption("On the Record page you can switch between the record as "
                    "filed and what OCR reads from the scan.")
         if demo.demo_mode():
             cached = len(demo.load_cache())
