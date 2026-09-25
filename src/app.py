@@ -76,6 +76,42 @@ def read_with_ocr(record_id: str, image_path: str) -> dict:
     return demo.read_record(record_id, image_path)
 
 
+def uploaded_to_image(upload) -> bytes:
+    """Turn an uploaded file into image bytes the pipeline can read.
+
+    A PDF is rendered at 200 dpi, which is about what a scanner produces and
+    what the OCR step was tuned on. Only the first page: a 7/12 is one page.
+    """
+    data = upload.getvalue()
+    if not upload.name.lower().endswith(".pdf"):
+        return data
+
+    import pymupdf
+    document = pymupdf.open(stream=data, filetype="pdf")
+    if document.page_count == 0:
+        raise ValueError("that PDF has no pages")
+    page = document.load_page(0)
+    return page.get_pixmap(dpi=200).tobytes("png")
+
+
+@st.cache_data(show_spinner="Reading your page (about 15 seconds)...")
+def read_upload(image_bytes: bytes, name: str) -> dict:
+    """Run the real pipeline on a file the user just gave us."""
+    import tempfile
+    from pathlib import Path as _Path
+
+    from src.ocr.extract import extract_from_file
+
+    suffix = ".png" if name.lower().endswith(".pdf") else _Path(name).suffix or ".jpg"
+    with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as handle:
+        handle.write(image_bytes)
+        temporary = handle.name
+    try:
+        return extract_from_file(temporary)
+    finally:
+        _Path(temporary).unlink(missing_ok=True)
+
+
 def show_value(value, decimals: int = 2) -> str:
     """Format a field for display, saying plainly when OCR could not read it."""
     if value is None or value == "":
@@ -367,6 +403,51 @@ def page_record(records, reports, reviews):
         st.caption("Recording a decision never changes the land record itself.")
 
 
+def page_upload(records, reports, reviews):
+    st.subheader("Check a scan")
+    st.caption("Upload a 7/12 extract and the system reads it, checks it, and "
+               "scores it — the same pipeline the sample records go through.")
+
+    if demo.demo_mode():
+        st.warning(
+            "This copy is running in cached mode, so it cannot read a new page: "
+            "Tesseract is not installed here. Run the app on a machine with "
+            "Tesseract (README steps 3 and 4) to check your own scans.")
+        st.stop()
+
+    upload = st.file_uploader("A scanned 7/12 extract",
+                              type=["jpg", "jpeg", "png", "pdf"])
+    if upload is None:
+        st.info("JPG, PNG or PDF. A PDF is read at 200 dpi, first page only.")
+        return
+
+    try:
+        image_bytes = uploaded_to_image(upload)
+        record = read_upload(image_bytes, upload.name)
+    except Exception as error:
+        st.error(f"That page could not be read: {error}")
+        return
+
+    # Nothing to compare against: rules needing the rest of the batch will say so.
+    report = evaluate(record, {})
+
+    image_column, detail_column = st.columns([1.05, 1])
+    with image_column:
+        st.image(image_bytes, use_container_width=True)
+    with detail_column:
+        meta = record.get("_ocr", {})
+        st.caption(f"Read in {meta.get('seconds', '?')} s — {meta.get('cells', '?')} "
+                   f"cells, straightened by {meta.get('deskew_angle', 0)}°, mean "
+                   f"confidence {meta.get('mean_confidence', '?')}.")
+        risk_banner(report)
+        show_checks(report)
+        field_tables(record, record.get("_confidence", {}))
+
+    st.caption("This page was not saved and no land record was changed. Checks "
+               "that compare one record against others cannot run on a single "
+               "upload, and say so above.")
+
+
 def page_dashboard(records, reports, reviews):
     st.subheader("Dashboard")
     table = queue_table(records, reports, reviews)
@@ -439,7 +520,8 @@ def main():
         st.stop()
 
     reviews = load_reviews()
-    pages = {"Review queue": page_queue, "Record": page_record, "Dashboard": page_dashboard}
+    pages = {"Review queue": page_queue, "Record": page_record,
+             "Check a scan": page_upload, "Dashboard": page_dashboard}
     with st.sidebar:
         st.header("Bhu-Satyapan")
         choice = st.radio("Page", list(pages),

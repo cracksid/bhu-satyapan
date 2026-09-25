@@ -22,6 +22,16 @@ SAUVOLA_WINDOW = 31      # pixels; about the height of a line of text here
 SAUVOLA_K = 0.2          # standard value from the paper
 SAUVOLA_R = 128.0        # dynamic range of the standard deviation
 
+# Every page is scaled to this width before anything else happens.
+#
+# Several numbers downstream are in pixels and were tuned at this size: the
+# Sauvola window, the smallest thing that counts as a cell, how far inside a
+# border to crop, and how much to enlarge a cell for Tesseract. Hand the same
+# page in at 4,500 px - which is what a PDF rendered at 200 dpi gives - and
+# those numbers no longer describe it, so whole tables stop being found. A
+# scan can arrive at any resolution, so normalise first and tune once.
+TARGET_WIDTH = 1650
+
 
 @dataclass
 class PreparedPage:
@@ -102,10 +112,22 @@ def find_rules(ink: np.ndarray):
     return horizontal, vertical
 
 
+def to_target_width(image: np.ndarray, width: int = TARGET_WIDTH) -> np.ndarray:
+    """Scale a page to the width the rest of the pipeline expects."""
+    current = image.shape[1]
+    if abs(current - width) / width < 0.1:      # close enough already
+        return image
+    scale = width / current
+    interpolation = cv2.INTER_AREA if scale < 1 else cv2.INTER_CUBIC
+    return cv2.resize(image, (width, max(int(round(image.shape[0] * scale)), 1)),
+                      interpolation=interpolation)
+
+
 def prepare(image: np.ndarray) -> PreparedPage:
     """Run the whole chain on one page image (grayscale or colour)."""
     if image.ndim == 3:
         image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    image = to_target_width(image)
 
     angle = deskew_angle(image)
     gray = rotate(image, angle) if abs(angle) > 0.05 else image.copy()

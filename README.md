@@ -286,6 +286,7 @@ It opens at <http://localhost:8501>. Press Ctrl+C in the terminal to stop it.
 |------|----------------|
 | **Review queue** | every record, highest risk first, with filters for band, district and "still pending". Selecting a row opens it. |
 | **Record** | the scan on the left; on the right the dispute-risk score, each failed check in plain English, and the fields in tabs (fields, owners, mutations, crops) |
+| **Check a scan** | upload your own 7/12 as JPG, PNG or PDF; it is read, checked and scored by the same pipeline, and nothing is saved |
 | **Dashboard** | records processed, clean, flagged, high risk, pending verification; how often each check fails; district-wise progress; the three risk bands |
 
 Marking a record **Reviewed** or **Needs correction** writes a line to
@@ -318,6 +319,7 @@ doubtful fields shaded, and the same five rules run on it.
 
 | Step | What happens | Where |
 |------|--------------|-------|
+| 0 | scale the page to 1650 px wide, whatever came in | `preprocess.py` |
 | 1 | grayscale, deskew, denoise, Sauvola binarise, lift off the ruling lines | `preprocess.py` |
 | 2 | find the cells the printed rules box in, group them into rows and tables | `tables.py` |
 | 3 | OCR each cell separately (Tesseract mar+eng), keeping a confidence | `read.py` |
@@ -327,6 +329,15 @@ doubtful fields shaded, and the same five rules run on it.
 Reading cell by cell rather than throwing the whole page at Tesseract is what
 makes every value arrive with a position - that is how the extractor can say
 "this number is the total area" instead of "this is a number somewhere".
+
+**Step 0 matters more than it looks.** Several numbers downstream are in
+pixels: the Sauvola window, the smallest thing that counts as a cell, how far
+inside a border to crop, how much to enlarge a cell for Tesseract. A PDF
+rendered at 200 dpi arrives about 3,500 px wide, and at that size those
+numbers no longer describe the page - the mutation table stopped being found
+at all. Scans arrive at any resolution, so every page is scaled to one width
+first and the pixel numbers are tuned once. The same page now reads the same
+at 200 dpi, 400 dpi and from the original image.
 
 ### Four things that were measured, not guessed
 

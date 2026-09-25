@@ -13,6 +13,7 @@ opencv-python-headless==4.14.0.94    # image processing (blur, deskew, table lin
 pytesseract==0.3.13                  # lets Python run the Tesseract OCR program
 streamlit==1.64.0                    # the web user interface (Phase 3)
 pandas==3.0.6                        # tables for the UI (comes with streamlit, pinned here because we import it)
+pymupdf==1.28.2                      # renders an uploaded PDF to an image so it can be read
 pytest==9.1.1                        # automated tests (Phase 2)
 playwright==1.63.0                   # headless browser that draws the synthetic 7/12 pages
 
