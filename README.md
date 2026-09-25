@@ -494,7 +494,7 @@ land validator/
 │   │   └── generate.py    the command you run
 │   ├── validation/      Phase 2: rule engine
 │   │   ├── config.py      weights, severities, tolerance, colour bands
-│   │   ├── rules.py       the five checks
+│   │   ├── rules.py       the six checks
 │   │   ├── engine.py      runs the rules, adds up the score
 │   │   └── report.py      scores a batch, measures it against ground truth
 │   ├── demo.py          Phase 5: cached OCR results, so a demo never stalls
@@ -504,9 +504,10 @@ land validator/
 │   │   ├── read.py        OCR a cell, with confidence and two-model agreement
 │   │   ├── extract.py     cells -> record fields
 │   │   └── evaluate.py    measure it all against the ground truth
-│   └── app.py           Phase 3: the Streamlit UI (queue, record, dashboard)
+│   └── app.py           Phase 3: the Streamlit UI (queue, record, upload, dashboard)
 ├── .streamlit/
 │   └── config.toml      fixes the light theme for the UI
+├── packages.txt         Linux programs the hosted copy needs (Tesseract)
 ├── pytest.ini           lets the tests import src/ from the project folder
 └── tests/
     ├── test_validation.py     Phase 2: the rules, and detection per rule
@@ -527,5 +528,6 @@ land validator/
 | `Activate.ps1 cannot be loaded because running scripts is disabled` | Run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once. Or skip activation and run `.\.venv\Scripts\python.exe check_setup.py` instead. |
 | `tesseract : The term 'tesseract' is not recognized` | Tesseract is not on PATH, or the terminal was opened before PATH changed. Redo step 4 and open a **new** terminal. |
 | `mar` is missing from `tesseract --list-langs` | The installer could not download it. Download `mar.traineddata` from <https://github.com/tesseract-ocr/tessdata_fast/raw/main/mar.traineddata> (the same file the installer uses). Copy it into `C:\Program Files\Tesseract-OCR\tessdata\`. Windows will ask for admin permission. |
+| The hosted app says "cached mode ... Tesseract is not installed here" | The Streamlit Cloud container builds from `packages.txt`. Check that file is in the repository, then open the app's menu on share.streamlit.io and choose **Reboot app** so it rebuilds. Note the hosted copy has no `tessdata_best`, so it has no second opinion on numbers and will skip more checks than your laptop. |
 | Marathi text shows as boxes in the terminal | That is only the terminal's font. The check compares the actual text, so a `[PASS]` is still a pass. |
 | Things break after you move or rename the project folder | A virtual environment remembers its full path. Delete `.venv` and redo step 2. |

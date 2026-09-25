@@ -513,9 +513,12 @@ def page_upload(records, reports, reviews):
 
     if demo.demo_mode():
         st.warning(
-            "This copy is running in cached mode, so it cannot read a new page: "
-            "Tesseract is not installed here. Run the app on a machine with "
-            "Tesseract (README steps 3 and 4) to check your own scans.")
+            "This copy cannot read a new page: Tesseract is not installed on "
+            "the machine serving it, so the app is running in cached mode.\n\n"
+            "* On the **hosted** copy, reboot the app from share.streamlit.io "
+            "so it rebuilds and installs Tesseract from `packages.txt`.\n"
+            "* On **your own machine**, follow README steps 3 and 4, then "
+            "start the app from a new terminal.")
         st.stop()
 
     upload = st.file_uploader("A scanned 7/12 extract",
