@@ -1,0 +1,77 @@
+{
+  "record_id": "R0084",
+  "family_id": "F0034",
+  "role": "parent",
+  "district": "कोल्हापूर",
+  "taluka": "हातकणंगले",
+  "village": "रानतळेवाडी",
+  "survey_number": "406",
+  "hissa_number": null,
+  "khata_number": "216",
+  "total_area": 1.76,
+  "cultivable_area": 1.76,
+  "pot_kharaba": 0.0,
+  "assessment": 3.79,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "केशव संतोष तांबे",
+      "share_area": 1.2,
+      "assessment_share": 2.58
+    },
+    {
+      "name": "दिलीप अनिल दाभाडे",
+      "share_area": 0.33,
+      "assessment_share": 0.71
+    },
+    {
+      "name": "हरिभाऊ कृष्णा घाडगे",
+      "share_area": 0.23,
+      "assessment_share": 0.5
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 270000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "936",
+      "date": "2006-06-10",
+      "type": "gift",
+      "from_owner": "दिलीप अनिल दाभाडे",
+      "to_owner": "केशव संतोष तांबे",
+      "area": 1.2
+    },
+    {
+      "mutation_number": "1222",
+      "date": "2007-03-23",
+      "type": "partition",
+      "from_owner": "दिलीप अनिल दाभाडे",
+      "to_owner": "हरिभाऊ कृष्णा घाडगे",
+      "area": 0.23
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 1.32,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 1.52,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0085",
+    "R0086"
+  ],
+  "defects": [],
+  "image_file": "images/R0084.jpg"
+}

@@ -1,0 +1,95 @@
+{
+  "record_id": "R0046",
+  "family_id": "F0017",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "संगमनेर",
+  "village": "वडगव्हाण खुर्द",
+  "survey_number": "327",
+  "hissa_number": "2",
+  "khata_number": "840",
+  "total_area": 0.4,
+  "cultivable_area": 0.37,
+  "pot_kharaba": 0.03,
+  "assessment": 0.66,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "जिजाबाई बबन शेलार",
+      "share_area": 0.24,
+      "assessment_share": 0.39
+    },
+    {
+      "name": "मंगल गणेश मोरे",
+      "share_area": 0.1,
+      "assessment_share": 0.17
+    },
+    {
+      "name": "शांता रघुनाथ राऊत",
+      "share_area": 0.06,
+      "assessment_share": 0.1
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "2376",
+      "date": "1999-08-05",
+      "type": "sale",
+      "from_owner": "सखाराम यशवंत वाघमारे",
+      "to_owner": "अशोक नामदेव शेलार",
+      "area": 0.4
+    },
+    {
+      "mutation_number": "2509",
+      "date": "2003-01-18",
+      "type": "partition",
+      "from_owner": "अशोक नामदेव शेलार",
+      "to_owner": "जिजाबाई बबन शेलार",
+      "area": 0.24
+    },
+    {
+      "mutation_number": "2705",
+      "date": "2004-06-09",
+      "type": "gift",
+      "from_owner": "अशोक नामदेव शेलार",
+      "to_owner": "मंगल गणेश मोरे",
+      "area": 0.16
+    },
+    {
+      "mutation_number": "2903",
+      "date": "2005-10-12",
+      "type": "partition",
+      "from_owner": "मंगल गणेश मोरे",
+      "to_owner": "शांता रघुनाथ राऊत",
+      "area": 0.06
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.15,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.35,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.18,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0044",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0046.jpg"
+}

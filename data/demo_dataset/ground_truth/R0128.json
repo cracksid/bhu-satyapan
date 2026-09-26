@@ -1,0 +1,90 @@
+{
+  "record_id": "R0128",
+  "family_id": "F0053",
+  "role": "parent",
+  "district": "पुणे",
+  "taluka": "जुन्नर",
+  "village": "तुळजामाळ",
+  "survey_number": "146",
+  "hissa_number": null,
+  "khata_number": "944",
+  "total_area": 0.92,
+  "cultivable_area": 0.86,
+  "pot_kharaba": 0.29,
+  "assessment": 1.85,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "कमल दत्तात्रय वाघमारे",
+      "share_area": 0.92,
+      "assessment_share": 1.85
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 150000",
+    "कूळ: अशोक नामदेव वाघमारे"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1282",
+      "date": "2004-09-15",
+      "type": "gift",
+      "from_owner": "अशोक विठ्ठल शिंदे",
+      "to_owner": "सुनील दत्तात्रय थोरात",
+      "area": 0.92
+    },
+    {
+      "mutation_number": "1555",
+      "date": "2006-11-13",
+      "type": "inheritance",
+      "from_owner": "सुनील दत्तात्रय थोरात",
+      "to_owner": "कमल दत्तात्रय वाघमारे",
+      "area": 0.92
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.7,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "बाजरी",
+      "area": 0.35,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.7,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "कापूस",
+      "area": 0.72,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "area_balance_mismatch",
+      "record_id": "R0128",
+      "detail": "cultivable 0.86 + pot kharaba 0.29 != total 0.92 ha",
+      "fields": [
+        "total_area",
+        "cultivable_area",
+        "pot_kharaba"
+      ]
+    }
+  ],
+  "image_file": "images/R0128.jpg"
+}

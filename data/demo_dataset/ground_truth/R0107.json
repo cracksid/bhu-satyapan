@@ -1,0 +1,104 @@
+{
+  "record_id": "R0107",
+  "family_id": "F0046",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "संगमनेर",
+  "village": "कवठेमळा",
+  "survey_number": "425",
+  "hissa_number": "1",
+  "khata_number": "113",
+  "total_area": 0.57,
+  "cultivable_area": 0.53,
+  "pot_kharaba": 0.04,
+  "assessment": 2.18,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "सुनंदा दिलीप चव्हाण",
+      "share_area": 0.36,
+      "assessment_share": 1.38
+    },
+    {
+      "name": "मीरा हरिभाऊ भोसले",
+      "share_area": 0.11,
+      "assessment_share": 0.42
+    },
+    {
+      "name": "अशोक विठ्ठल शेलार",
+      "share_area": 0.1,
+      "assessment_share": 0.38
+    }
+  ],
+  "other_rights": [
+    "विविध कार्यकारी सोसायटी कर्ज रु. 120000",
+    "पाणी वापर हक्क"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1331",
+      "date": "2001-09-06",
+      "type": "gift",
+      "from_owner": "गणेश रघुनाथ शिंदे",
+      "to_owner": "मीरा हरिभाऊ भोसले",
+      "area": 0.21
+    },
+    {
+      "mutation_number": "1486",
+      "date": "2002-07-14",
+      "type": "sale",
+      "from_owner": "गणेश रघुनाथ शिंदे",
+      "to_owner": "सुनंदा दिलीप चव्हाण",
+      "area": 0.36
+    },
+    {
+      "mutation_number": "1778",
+      "date": "2005-10-01",
+      "type": "gift",
+      "from_owner": "मीरा हरिभाऊ भोसले",
+      "to_owner": "अशोक विठ्ठल शेलार",
+      "area": 0.1
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.5,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.3,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.34,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 0.46,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 0.39,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0106",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0107.jpg"
+}

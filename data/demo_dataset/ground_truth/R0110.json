@@ -1,0 +1,93 @@
+{
+  "record_id": "R0110",
+  "family_id": "F0046",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "संगमनेर",
+  "village": "कवठेमळा",
+  "survey_number": "425",
+  "hissa_number": "4",
+  "khata_number": "650",
+  "total_area": 1.12,
+  "cultivable_area": 1.09,
+  "pot_kharaba": 0.03,
+  "assessment": 4.48,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "अनुसया प्रकाश घाडगे",
+      "share_area": 0.72,
+      "assessment_share": 2.88
+    },
+    {
+      "name": "महादेव रघुनाथ जगताप",
+      "share_area": 0.4,
+      "assessment_share": 1.6
+    }
+  ],
+  "other_rights": [
+    "कूळ: तुकाराम अशोक तांबे",
+    "पाणी वापर हक्क"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1287",
+      "date": "2003-07-06",
+      "type": "gift",
+      "from_owner": "बाळासाहेब यशवंत पवार",
+      "to_owner": "अनिल राम जगताप",
+      "area": 0.4
+    },
+    {
+      "mutation_number": "1429",
+      "date": "2007-05-20",
+      "type": "gift",
+      "from_owner": "अनिल राम जगताप",
+      "to_owner": "वत्सला केशव चव्हाण",
+      "area": 0.4
+    },
+    {
+      "mutation_number": "1722",
+      "date": "2010-09-24",
+      "type": "sale",
+      "from_owner": "वत्सला केशव चव्हाण",
+      "to_owner": "महादेव रघुनाथ जगताप",
+      "area": 0.4
+    },
+    {
+      "mutation_number": "1949",
+      "date": "2011-07-08",
+      "type": "inheritance",
+      "from_owner": "बाळासाहेब यशवंत पवार",
+      "to_owner": "अनुसया प्रकाश घाडगे",
+      "area": 0.72
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.45,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.73,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 0.48,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0106",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0110.jpg"
+}

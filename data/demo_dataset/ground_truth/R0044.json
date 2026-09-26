@@ -1,0 +1,116 @@
+{
+  "record_id": "R0044",
+  "family_id": "F0017",
+  "role": "parent",
+  "district": "अहिल्यानगर",
+  "taluka": "संगमनेर",
+  "village": "वडगव्हाण खुर्द",
+  "survey_number": "327",
+  "hissa_number": null,
+  "khata_number": "934",
+  "total_area": 1.22,
+  "cultivable_area": 1.22,
+  "pot_kharaba": 0.0,
+  "assessment": 2.78,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "सुनील दत्तात्रय थोरात",
+      "share_area": 0.77,
+      "assessment_share": 1.28
+    },
+    {
+      "name": "बबन रघुनाथ सावंत",
+      "share_area": 0.24,
+      "assessment_share": 0.8
+    },
+    {
+      "name": "सरस्वती महादेव थोरात",
+      "share_area": 0.21,
+      "assessment_share": 0.7
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2180",
+      "date": "2000-12-25",
+      "type": "gift",
+      "from_owner": "प्रकाश अनिल तांबे",
+      "to_owner": "सुनील दत्तात्रय थोरात",
+      "area": 0.38
+    },
+    {
+      "mutation_number": "2252",
+      "date": "2001-11-18",
+      "type": "partition",
+      "from_owner": "प्रकाश अनिल तांबे",
+      "to_owner": "सरस्वती महादेव थोरात",
+      "area": 0.45
+    },
+    {
+      "mutation_number": "2542",
+      "date": "2005-03-04",
+      "type": "gift",
+      "from_owner": "सरस्वती महादेव थोरात",
+      "to_owner": "बबन रघुनाथ सावंत",
+      "area": 0.24
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.48,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.59,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 0.4,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.57,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "तूर",
+      "area": 0.42,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0045",
+    "R0046"
+  ],
+  "defects": [
+    {
+      "type": "hissa_area_mismatch",
+      "record_id": "R0044",
+      "detail": "parent area is 1.22 ha but its 2 hissa records add up to 0.83 ha",
+      "fields": [
+        "total_area",
+        "hissa_record_ids"
+      ]
+    }
+  ],
+  "image_file": "images/R0044.jpg"
+}

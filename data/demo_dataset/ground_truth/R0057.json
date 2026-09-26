@@ -1,0 +1,109 @@
+{
+  "record_id": "R0057",
+  "family_id": "F0022",
+  "role": "parent",
+  "district": "कोल्हापूर",
+  "taluka": "शिरोळ",
+  "village": "करंजतळे",
+  "survey_number": "426",
+  "hissa_number": null,
+  "khata_number": "431",
+  "total_area": 1.93,
+  "cultivable_area": 1.8,
+  "pot_kharaba": 0.13,
+  "assessment": 4.52,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "केशव कृष्णा पाटील",
+      "share_area": 1.29,
+      "assessment_share": 3.02
+    },
+    {
+      "name": "संतोष कृष्णा साळुंखे",
+      "share_area": 0.35,
+      "assessment_share": 0.82
+    },
+    {
+      "name": "सुनंदा सुरेश मोरे",
+      "share_area": 0.29,
+      "assessment_share": 0.68
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1901",
+      "date": "2001-06-14",
+      "type": "partition",
+      "from_owner": "संतोष कृष्णा साळुंखे",
+      "to_owner": "केशव कृष्णा पाटील",
+      "area": 1.29
+    },
+    {
+      "mutation_number": "1993",
+      "date": "2002-10-29",
+      "type": "partition",
+      "from_owner": "मंगल रघुनाथ शिंदे",
+      "to_owner": "सुनंदा सुरेश मोरे",
+      "area": 0.29
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 0.91,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "ऊस",
+      "area": 1.44,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 1.51,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "गहू",
+      "area": 0.91,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.75,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 0.96,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "broken_mutation_chain",
+      "record_id": "R0057",
+      "detail": "mutation 1993 is transferred by मंगल रघुनाथ शिंदे, who was not an owner at that time (the holder was संतोष कृष्णा साळुंखे)",
+      "fields": [
+        "mutations"
+      ]
+    }
+  ],
+  "image_file": "images/R0057.jpg"
+}

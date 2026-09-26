@@ -1,0 +1,86 @@
+{
+  "record_id": "R0092",
+  "family_id": "F0036",
+  "role": "hissa",
+  "district": "कोल्हापूर",
+  "taluka": "शिरोळ",
+  "village": "कवठेमळा",
+  "survey_number": "381",
+  "hissa_number": "4",
+  "khata_number": "534",
+  "total_area": 1.02,
+  "cultivable_area": 0.96,
+  "pot_kharaba": 0.06,
+  "assessment": 3.37,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "शोभा हरिभाऊ शेलार",
+      "share_area": 0.39,
+      "assessment_share": 1.29
+    },
+    {
+      "name": "संतोष सुनील शेलार",
+      "share_area": 0.36,
+      "assessment_share": 1.19
+    },
+    {
+      "name": "मीरा गणेश मोरे",
+      "share_area": 0.27,
+      "assessment_share": 0.89
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "2481",
+      "date": "2006-03-03",
+      "type": "gift",
+      "from_owner": "संतोष सुनील शेलार",
+      "to_owner": "शोभा हरिभाऊ शेलार",
+      "area": 0.39
+    },
+    {
+      "mutation_number": "2625",
+      "date": "2008-02-05",
+      "type": "partition",
+      "from_owner": "संतोष सुनील शेलार",
+      "to_owner": "मीरा गणेश मोरे",
+      "area": 0.27
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.48,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.47,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ऊस",
+      "area": 0.5,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.45,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0088",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0092.jpg"
+}

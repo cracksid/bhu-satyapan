@@ -1,0 +1,79 @@
+{
+  "record_id": "R0101",
+  "family_id": "F0043",
+  "role": "parent",
+  "district": "सोलापूर",
+  "taluka": "पंढरपूर",
+  "village": "धानोरमाळ",
+  "survey_number": "423",
+  "hissa_number": null,
+  "khata_number": "796",
+  "total_area": 1.35,
+  "cultivable_area": 1.23,
+  "pot_kharaba": 0.12,
+  "assessment": 4.78,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "लक्ष्मी रमेश चव्हाण",
+      "share_area": 0.76,
+      "assessment_share": 2.69
+    },
+    {
+      "name": "केशव तुकाराम बनसोडे",
+      "share_area": 0.59,
+      "assessment_share": 2.09
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 130000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2283",
+      "date": "2002-09-10",
+      "type": "sale",
+      "from_owner": "रखमाबाई बाळासाहेब माने",
+      "to_owner": "लक्ष्मी रमेश चव्हाण",
+      "area": 0.76
+    },
+    {
+      "mutation_number": "2531",
+      "date": "2005-06-04",
+      "type": "inheritance",
+      "from_owner": "रखमाबाई बाळासाहेब माने",
+      "to_owner": "केशव तुकाराम बनसोडे",
+      "area": 0.59
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.54,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 1.1,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 1.13,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0102",
+    "R0103"
+  ],
+  "defects": [],
+  "image_file": "images/R0101.jpg"
+}

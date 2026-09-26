@@ -1,0 +1,76 @@
+{
+  "record_id": "R0200",
+  "family_id": "F0081",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "श्रीगोंदा",
+  "village": "रानतळेवाडी",
+  "survey_number": "185",
+  "hissa_number": "2",
+  "khata_number": "773",
+  "total_area": 0.56,
+  "cultivable_area": 0.56,
+  "pot_kharaba": 0.0,
+  "assessment": 1.94,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "रखमाबाई अनिल राऊत",
+      "share_area": 0.56,
+      "assessment_share": 1.94
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1000",
+      "date": "1997-10-20",
+      "type": "inheritance",
+      "from_owner": "वत्सला सुरेश जाधव",
+      "to_owner": "सुरेश कृष्णा गायकवाड",
+      "area": 0.56
+    },
+    {
+      "mutation_number": "1145",
+      "date": "2000-04-23",
+      "type": "inheritance",
+      "from_owner": "सुरेश कृष्णा गायकवाड",
+      "to_owner": "रखमाबाई अनिल राऊत",
+      "area": 0.56
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 0.53,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 0.46,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.4,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.46,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0198",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0200.jpg"
+}

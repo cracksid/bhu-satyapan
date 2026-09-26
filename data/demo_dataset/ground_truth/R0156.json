@@ -1,0 +1,93 @@
+{
+  "record_id": "R0156",
+  "family_id": "F0066",
+  "role": "hissa",
+  "district": "सातारा",
+  "taluka": "कोरेगाव",
+  "village": "निंबतळेवाडी",
+  "survey_number": "15",
+  "hissa_number": "1",
+  "khata_number": "469",
+  "total_area": 0.34,
+  "cultivable_area": 0.31,
+  "pot_kharaba": 0.03,
+  "assessment": 0.54,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "तुकाराम दत्तात्रय देशमुख",
+      "share_area": 0.2,
+      "assessment_share": 0.32
+    },
+    {
+      "name": "अनिल शिवाजी राऊत",
+      "share_area": 0.1,
+      "assessment_share": 0.16
+    },
+    {
+      "name": "अनिल नामदेव काळे",
+      "share_area": 0.04,
+      "assessment_share": 0.06
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "2203",
+      "date": "1999-01-31",
+      "type": "gift",
+      "from_owner": "तुकाराम दत्तात्रय देशमुख",
+      "to_owner": "अनिल नामदेव काळे",
+      "area": 0.14
+    },
+    {
+      "mutation_number": "2350",
+      "date": "2000-08-14",
+      "type": "partition",
+      "from_owner": "अनिल नामदेव काळे",
+      "to_owner": "अनिल शिवाजी राऊत",
+      "area": 0.1
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.24,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "गहू",
+      "area": 0.28,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.2,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.22,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "हरभरा",
+      "area": 0.19,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0155",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0156.jpg"
+}

@@ -1,0 +1,91 @@
+{
+  "record_id": "R0109",
+  "family_id": "F0046",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "संगमनेर",
+  "village": "कवठेमळा",
+  "survey_number": "425",
+  "hissa_number": "3",
+  "khata_number": "547",
+  "total_area": 0.91,
+  "cultivable_area": 0.91,
+  "pot_kharaba": 0.0,
+  "assessment": 2.7,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "पार्वती बबन दाभाडे",
+      "share_area": 0.48,
+      "assessment_share": 1.42
+    },
+    {
+      "name": "राम गणेश घाडगे",
+      "share_area": 0.43,
+      "assessment_share": 1.28
+    }
+  ],
+  "other_rights": [
+    "कूळ: प्रकाश राम माने"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1981",
+      "date": "2004-11-13",
+      "type": "partition",
+      "from_owner": "शोभा अनिल कुलकर्णी",
+      "to_owner": "विठ्ठल गणेश बनसोडे",
+      "area": 0.91
+    },
+    {
+      "mutation_number": "2229",
+      "date": "2006-10-27",
+      "type": "gift",
+      "from_owner": "विठ्ठल गणेश बनसोडे",
+      "to_owner": "राम गणेश घाडगे",
+      "area": 0.91
+    },
+    {
+      "mutation_number": "2385",
+      "date": "2009-07-22",
+      "type": "partition",
+      "from_owner": "राम गणेश घाडगे",
+      "to_owner": "पार्वती बबन दाभाडे",
+      "area": 0.48
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.66,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.58,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.66,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 0.78,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0106",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0109.jpg"
+}

@@ -1,0 +1,81 @@
+{
+  "record_id": "R0161",
+  "family_id": "F0068",
+  "role": "hissa",
+  "district": "सातारा",
+  "taluka": "कोरेगाव",
+  "village": "जांभूळवस्ती",
+  "survey_number": "56",
+  "hissa_number": "1",
+  "khata_number": "749",
+  "total_area": 1.6,
+  "cultivable_area": 1.6,
+  "pot_kharaba": 0.0,
+  "assessment": 6.83,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "नामदेव बबन देशमुख",
+      "share_area": 1.09,
+      "assessment_share": 4.65
+    },
+    {
+      "name": "कृष्णा दत्तात्रय गायकवाड",
+      "share_area": 0.51,
+      "assessment_share": 2.18
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "2035",
+      "date": "1999-07-21",
+      "type": "sale",
+      "from_owner": "सरस्वती संतोष सावंत",
+      "to_owner": "कृष्णा दत्तात्रय गायकवाड",
+      "area": 1.6
+    },
+    {
+      "mutation_number": "2198",
+      "date": "2002-04-01",
+      "type": "partition",
+      "from_owner": "कृष्णा दत्तात्रय गायकवाड",
+      "to_owner": "नामदेव बबन देशमुख",
+      "area": 1.09
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 1.38,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 1.51,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "तूर",
+      "area": 1.57,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.89,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0160",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0161.jpg"
+}

@@ -1,0 +1,98 @@
+{
+  "record_id": "R0098",
+  "family_id": "F0040",
+  "role": "parent",
+  "district": "सोलापूर",
+  "taluka": "बार्शी",
+  "village": "शिरसमाळवाडी",
+  "survey_number": "78",
+  "hissa_number": null,
+  "khata_number": "361",
+  "total_area": 1.94,
+  "cultivable_area": 1.94,
+  "pot_kharaba": 0.0,
+  "assessment": 6.93,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "इंदुबाई दिलीप कुलकर्णी",
+      "share_area": 1.2,
+      "assessment_share": 4.29
+    },
+    {
+      "name": "राम यशवंत पवार",
+      "share_area": 0.52,
+      "assessment_share": 2.64
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1228",
+      "date": "2001-02-24",
+      "type": "sale",
+      "from_owner": "इंदुबाई दिलीप कुलकर्णी",
+      "to_owner": "शोभा सुनील काळे",
+      "area": 0.74
+    },
+    {
+      "mutation_number": "1418",
+      "date": "2001-12-14",
+      "type": "inheritance",
+      "from_owner": "शोभा सुनील काळे",
+      "to_owner": "राम यशवंत पवार",
+      "area": 0.74
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 1.57,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 1.49,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "गहू",
+      "area": 1.0,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 1.7,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 0.96,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "owner_share_mismatch",
+      "record_id": "R0098",
+      "detail": "owner shares add up to 1.72 ha but the total area is 1.94 ha",
+      "fields": [
+        "owners",
+        "total_area"
+      ]
+    }
+  ],
+  "image_file": "images/R0098.jpg"
+}

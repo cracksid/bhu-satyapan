@@ -1,0 +1,116 @@
+{
+  "record_id": "R0037",
+  "family_id": "F0014",
+  "role": "hissa",
+  "district": "सातारा",
+  "taluka": "फलटण",
+  "village": "रानतळेवाडी",
+  "survey_number": "37",
+  "hissa_number": "4",
+  "khata_number": "244",
+  "total_area": 1.51,
+  "cultivable_area": 1.35,
+  "pot_kharaba": 0.16,
+  "assessment": 2.41,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "नामदेव रघुनाथ कुलकर्णी",
+      "share_area": 0.84,
+      "assessment_share": 1.34
+    },
+    {
+      "name": "इंदुबाई संतोष जगताप",
+      "share_area": 0.26,
+      "assessment_share": 0.41
+    },
+    {
+      "name": "संतोष सुनील घाडगे",
+      "share_area": 0.21,
+      "assessment_share": 0.34
+    },
+    {
+      "name": "मीरा यशवंत दाभाडे",
+      "share_area": 0.2,
+      "assessment_share": 0.32
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 140000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1485",
+      "date": "2003-12-05",
+      "type": "partition",
+      "from_owner": "इंदुबाई संतोष जगताप",
+      "to_owner": "अनुसया दिलीप देशमुख",
+      "area": 0.84
+    },
+    {
+      "mutation_number": "1744",
+      "date": "2007-04-20",
+      "type": "inheritance",
+      "from_owner": "अनुसया दिलीप देशमुख",
+      "to_owner": "नामदेव रघुनाथ कुलकर्णी",
+      "area": 0.84
+    },
+    {
+      "mutation_number": "1895",
+      "date": "2010-06-02",
+      "type": "sale",
+      "from_owner": "इंदुबाई संतोष जगताप",
+      "to_owner": "मीरा यशवंत दाभाडे",
+      "area": 0.41
+    },
+    {
+      "mutation_number": "2004",
+      "date": "2012-01-18",
+      "type": "gift",
+      "from_owner": "मीरा यशवंत दाभाडे",
+      "to_owner": "संतोष सुनील घाडगे",
+      "area": 0.21
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 1.13,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "हरभरा",
+      "area": 1.07,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.92,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 1.29,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "बाजरी",
+      "area": 1.06,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0033",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0037.jpg"
+}

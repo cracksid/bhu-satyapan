@@ -1,0 +1,95 @@
+{
+  "record_id": "R0102",
+  "family_id": "F0043",
+  "role": "hissa",
+  "district": "सोलापूर",
+  "taluka": "पंढरपूर",
+  "village": "धानोरमाळ",
+  "survey_number": "423",
+  "hissa_number": "1",
+  "khata_number": "682",
+  "total_area": 0.48,
+  "cultivable_area": 0.43,
+  "pot_kharaba": 0.05,
+  "assessment": 1.63,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "वत्सला प्रकाश जाधव",
+      "share_area": 0.3,
+      "assessment_share": 1.02
+    },
+    {
+      "name": "वत्सला गणेश दाभाडे",
+      "share_area": 0.11,
+      "assessment_share": 0.37
+    },
+    {
+      "name": "रखमाबाई सुरेश तांबे",
+      "share_area": 0.07,
+      "assessment_share": 0.24
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2399",
+      "date": "1999-03-08",
+      "type": "sale",
+      "from_owner": "वत्सला प्रकाश जाधव",
+      "to_owner": "रखमाबाई सुरेश तांबे",
+      "area": 0.18
+    },
+    {
+      "mutation_number": "2601",
+      "date": "2002-03-25",
+      "type": "partition",
+      "from_owner": "रखमाबाई सुरेश तांबे",
+      "to_owner": "वत्सला गणेश दाभाडे",
+      "area": 0.11
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.42,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 0.24,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.35,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.29,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 0.2,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0101",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0102.jpg"
+}

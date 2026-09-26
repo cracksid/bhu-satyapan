@@ -1,0 +1,101 @@
+{
+  "record_id": "R0030",
+  "family_id": "F0013",
+  "role": "hissa",
+  "district": "पुणे",
+  "taluka": "बारामती",
+  "village": "शिरसमाळवाडी",
+  "survey_number": "33",
+  "hissa_number": "1",
+  "khata_number": "436",
+  "total_area": 0.95,
+  "cultivable_area": 0.95,
+  "pot_kharaba": 0.0,
+  "assessment": 1.72,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "वत्सला तुकाराम गायकवाड",
+      "share_area": 0.45,
+      "assessment_share": 0.81
+    },
+    {
+      "name": "वत्सला दिलीप थोरात",
+      "share_area": 0.28,
+      "assessment_share": 0.51
+    },
+    {
+      "name": "अनुसया शिवाजी शिंदे",
+      "share_area": 0.22,
+      "assessment_share": 0.4
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1574",
+      "date": "1997-08-31",
+      "type": "sale",
+      "from_owner": "वत्सला दिलीप थोरात",
+      "to_owner": "सुनंदा हरिभाऊ सावंत",
+      "area": 0.45
+    },
+    {
+      "mutation_number": "1767",
+      "date": "2000-05-18",
+      "type": "gift",
+      "from_owner": "वत्सला दिलीप थोरात",
+      "to_owner": "अनुसया शिवाजी शिंदे",
+      "area": 0.22
+    },
+    {
+      "mutation_number": "1827",
+      "date": "2003-04-22",
+      "type": "inheritance",
+      "from_owner": "सुनंदा हरिभाऊ सावंत",
+      "to_owner": "वत्सला तुकाराम गायकवाड",
+      "area": 0.45
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 0.58,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.95,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 0.42,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.84,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 0.46,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0029",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0030.jpg"
+}

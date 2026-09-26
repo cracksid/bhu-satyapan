@@ -1,0 +1,112 @@
+{
+  "record_id": "R0090",
+  "family_id": "F0036",
+  "role": "hissa",
+  "district": "कोल्हापूर",
+  "taluka": "शिरोळ",
+  "village": "कवठेमळा",
+  "survey_number": "381",
+  "hissa_number": "2",
+  "khata_number": "239",
+  "total_area": 0.51,
+  "cultivable_area": 0.49,
+  "pot_kharaba": 0.02,
+  "assessment": 0.76,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "रघुनाथ सुरेश माने",
+      "share_area": 0.19,
+      "assessment_share": 0.3
+    },
+    {
+      "name": "रघुनाथ सुरेश जगताप",
+      "share_area": 0.11,
+      "assessment_share": 0.16
+    },
+    {
+      "name": "सुनील अनिल दाभाडे",
+      "share_area": 0.11,
+      "assessment_share": 0.16
+    },
+    {
+      "name": "कलावती सखाराम भोसले",
+      "share_area": 0.05,
+      "assessment_share": 0.07
+    },
+    {
+      "name": "गणेश सखाराम वाघमारे",
+      "share_area": 0.05,
+      "assessment_share": 0.07
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1219",
+      "date": "2008-05-04",
+      "type": "gift",
+      "from_owner": "रघुनाथ सुरेश जगताप",
+      "to_owner": "रघुनाथ सुरेश माने",
+      "area": 0.19
+    },
+    {
+      "mutation_number": "1411",
+      "date": "2011-09-19",
+      "type": "gift",
+      "from_owner": "रघुनाथ सुरेश जगताप",
+      "to_owner": "कलावती सखाराम भोसले",
+      "area": 0.21
+    },
+    {
+      "mutation_number": "1651",
+      "date": "2014-07-29",
+      "type": "partition",
+      "from_owner": "कलावती सखाराम भोसले",
+      "to_owner": "सुनील अनिल दाभाडे",
+      "area": 0.11
+    },
+    {
+      "mutation_number": "1801",
+      "date": "2018-03-16",
+      "type": "gift",
+      "from_owner": "कलावती सखाराम भोसले",
+      "to_owner": "गणेश सखाराम वाघमारे",
+      "area": 0.05
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.45,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.35,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "बाजरी",
+      "area": 0.21,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.27,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0088",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0090.jpg"
+}

@@ -1,0 +1,102 @@
+{
+  "record_id": "R0083",
+  "family_id": "F0033",
+  "role": "parent",
+  "district": "पुणे",
+  "taluka": "बारामती",
+  "village": "करंजतळे",
+  "survey_number": "142",
+  "hissa_number": null,
+  "khata_number": "399",
+  "total_area": 2.35,
+  "cultivable_area": 2.22,
+  "pot_kharaba": 0.13,
+  "assessment": 5.44,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "सुरेश रघुनाथ गायकवाड",
+      "share_area": 1.38,
+      "assessment_share": 3.19
+    },
+    {
+      "name": "यशवंत नामदेव गायकवाड",
+      "share_area": 0.97,
+      "assessment_share": 2.25
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 160000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1039",
+      "date": "2005-08-03",
+      "type": "inheritance",
+      "from_owner": "हरिभाऊ रघुनाथ निकम",
+      "to_owner": "सुरेश रघुनाथ गायकवाड",
+      "area": 2.35
+    },
+    {
+      "mutation_number": "1308",
+      "date": "2008-12-30",
+      "type": "sale",
+      "from_owner": "सुरेश रघुनाथ गायकवाड",
+      "to_owner": "तुकाराम संतोष तांबे",
+      "area": 0.97
+    },
+    {
+      "mutation_number": "1543",
+      "date": "2011-06-08",
+      "type": "sale",
+      "from_owner": "तुकाराम संतोष तांबे",
+      "to_owner": "यशवंत नामदेव गायकवाड",
+      "area": 0.97
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 1.13,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "गहू",
+      "area": 1.86,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 1.11,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 2.14,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "duplicate_record",
+      "record_id": "R0083",
+      "detail": "survey number 142 in करंजतळे is recorded twice: on R0083 and on R0209",
+      "fields": [
+        "village",
+        "survey_number",
+        "hissa_number"
+      ]
+    }
+  ],
+  "image_file": "images/R0083.jpg"
+}

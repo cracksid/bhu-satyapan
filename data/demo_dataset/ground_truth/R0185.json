@@ -1,0 +1,88 @@
+{
+  "record_id": "R0185",
+  "family_id": "F0076",
+  "role": "parent",
+  "district": "नाशिक",
+  "taluka": "निफाड",
+  "village": "सोनखेडवाडी",
+  "survey_number": "279",
+  "hissa_number": null,
+  "khata_number": "402",
+  "total_area": 3.27,
+  "cultivable_area": 3.19,
+  "pot_kharaba": 0.08,
+  "assessment": 10.06,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "संतोष अनिल कदम",
+      "share_area": 3.27,
+      "assessment_share": 10.06
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 145000",
+    "कूळ: अनिल बबन कदम"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1582",
+      "date": "2000-02-01",
+      "type": "inheritance",
+      "from_owner": "कृष्णा रमेश शेलार",
+      "to_owner": "प्रकाश गणेश जगताप",
+      "area": 3.27
+    },
+    {
+      "mutation_number": "1739",
+      "date": "1998-02-01",
+      "type": "gift",
+      "from_owner": "प्रकाश गणेश जगताप",
+      "to_owner": "संतोष अनिल कदम",
+      "area": 3.27
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 2.79,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 3.1,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 2.09,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 2.47,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "mutation_date_out_of_order",
+      "record_id": "R0185",
+      "detail": "mutation 1739 is dated 1998-02-01, before mutation 1582 on 2000-02-01 (it was 2001-05-05)",
+      "fields": [
+        "mutations"
+      ]
+    }
+  ],
+  "image_file": "images/R0185.jpg"
+}

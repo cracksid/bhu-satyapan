@@ -1,0 +1,83 @@
+{
+  "record_id": "R0154",
+  "family_id": "F0065",
+  "role": "parent",
+  "district": "कोल्हापूर",
+  "taluka": "पन्हाळा",
+  "village": "देवगव्हाणवाडी",
+  "survey_number": "273",
+  "hissa_number": null,
+  "khata_number": "141",
+  "total_area": 1.12,
+  "cultivable_area": 0.99,
+  "pot_kharaba": 0.33,
+  "assessment": 3.82,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "रमेश सखाराम तांबे",
+      "share_area": 1.12,
+      "assessment_share": 3.82
+    }
+  ],
+  "other_rights": [
+    "कूळ: कृष्णा शिवाजी जगताप"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2371",
+      "date": "1999-04-06",
+      "type": "inheritance",
+      "from_owner": "प्रकाश राम वाघमारे",
+      "to_owner": "हरिभाऊ दिलीप चव्हाण",
+      "area": 1.12
+    },
+    {
+      "mutation_number": "2468",
+      "date": "2000-12-09",
+      "type": "inheritance",
+      "from_owner": "हरिभाऊ दिलीप चव्हाण",
+      "to_owner": "गणेश शिवाजी जगताप",
+      "area": 1.12
+    },
+    {
+      "mutation_number": "2715",
+      "date": "2004-11-02",
+      "type": "inheritance",
+      "from_owner": "गणेश शिवाजी जगताप",
+      "to_owner": "रमेश सखाराम तांबे",
+      "area": 1.12
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.43,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.91,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "area_balance_mismatch",
+      "record_id": "R0154",
+      "detail": "cultivable 0.99 + pot kharaba 0.33 != total 1.12 ha",
+      "fields": [
+        "total_area",
+        "cultivable_area",
+        "pot_kharaba"
+      ]
+    }
+  ],
+  "image_file": "images/R0154.jpg"
+}

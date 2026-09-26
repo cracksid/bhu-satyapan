@@ -1,0 +1,125 @@
+{
+  "record_id": "R0205",
+  "family_id": "F0026",
+  "role": "parent",
+  "district": "पुणे",
+  "taluka": "बारामती",
+  "village": "पिंपळतळे",
+  "survey_number": "446",
+  "hissa_number": null,
+  "khata_number": "564",
+  "total_area": 1.94,
+  "cultivable_area": 1.76,
+  "pot_kharaba": 0.18,
+  "assessment": 4.56,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "लक्ष्मी गणेश राऊत",
+      "share_area": 1.2,
+      "assessment_share": 2.83
+    },
+    {
+      "name": "केशव नामदेव गायकवाड",
+      "share_area": 0.24,
+      "assessment_share": 0.56
+    },
+    {
+      "name": "सुनंदा सुनील जाधव",
+      "share_area": 0.23,
+      "assessment_share": 0.54
+    },
+    {
+      "name": "शांता बबन घाडगे",
+      "share_area": 0.15,
+      "assessment_share": 0.35
+    },
+    {
+      "name": "सरस्वती सखाराम भोसले",
+      "share_area": 0.12,
+      "assessment_share": 0.28
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 125000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1482",
+      "date": "2002-09-18",
+      "type": "sale",
+      "from_owner": "केशव नामदेव गायकवाड",
+      "to_owner": "लक्ष्मी गणेश राऊत",
+      "area": 1.2
+    },
+    {
+      "mutation_number": "1663",
+      "date": "2005-10-07",
+      "type": "gift",
+      "from_owner": "केशव नामदेव गायकवाड",
+      "to_owner": "सुनंदा सुनील जाधव",
+      "area": 0.23
+    },
+    {
+      "mutation_number": "1683",
+      "date": "2009-06-09",
+      "type": "partition",
+      "from_owner": "केशव नामदेव गायकवाड",
+      "to_owner": "सरस्वती सखाराम भोसले",
+      "area": 0.27
+    },
+    {
+      "mutation_number": "1817",
+      "date": "2010-04-16",
+      "type": "partition",
+      "from_owner": "सरस्वती सखाराम भोसले",
+      "to_owner": "शांता बबन घाडगे",
+      "area": 0.15
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.75,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 0.85,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 1.35,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.93,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "duplicate_record",
+      "record_id": "R0205",
+      "detail": "survey number 446 in पिंपळतळे is recorded twice: on R0205 and on R0068",
+      "fields": [
+        "village",
+        "survey_number",
+        "hissa_number"
+      ]
+    }
+  ],
+  "image_file": "images/R0205.jpg"
+}

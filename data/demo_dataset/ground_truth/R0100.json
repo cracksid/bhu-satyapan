@@ -1,0 +1,81 @@
+{
+  "record_id": "R0100",
+  "family_id": "F0042",
+  "role": "parent",
+  "district": "सातारा",
+  "taluka": "फलटण",
+  "village": "शिरसमाळवाडी",
+  "survey_number": "259",
+  "hissa_number": null,
+  "khata_number": "892",
+  "total_area": 2.02,
+  "cultivable_area": 2.02,
+  "pot_kharaba": 0.23,
+  "assessment": 6.26,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "अनिल तुकाराम थोरात",
+      "share_area": 2.02,
+      "assessment_share": 6.26
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1161",
+      "date": "2001-01-11",
+      "type": "sale",
+      "from_owner": "तुकाराम महादेव शेलार",
+      "to_owner": "गणेश बबन वाघमारे",
+      "area": 2.02
+    },
+    {
+      "mutation_number": "1351",
+      "date": "2002-01-24",
+      "type": "sale",
+      "from_owner": "गणेश बबन वाघमारे",
+      "to_owner": "भास्कर राम बनसोडे",
+      "area": 2.02
+    },
+    {
+      "mutation_number": "1478",
+      "date": "2004-05-12",
+      "type": "inheritance",
+      "from_owner": "भास्कर राम बनसोडे",
+      "to_owner": "अनिल तुकाराम थोरात",
+      "area": 2.02
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.95,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 1.23,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "area_balance_mismatch",
+      "record_id": "R0100",
+      "detail": "cultivable 2.02 + pot kharaba 0.23 != total 2.02 ha",
+      "fields": [
+        "total_area",
+        "cultivable_area",
+        "pot_kharaba"
+      ]
+    }
+  ],
+  "image_file": "images/R0100.jpg"
+}

@@ -1,0 +1,100 @@
+{
+  "record_id": "R0157",
+  "family_id": "F0066",
+  "role": "hissa",
+  "district": "सातारा",
+  "taluka": "कोरेगाव",
+  "village": "निंबतळेवाडी",
+  "survey_number": "15",
+  "hissa_number": "2",
+  "khata_number": "882",
+  "total_area": 0.86,
+  "cultivable_area": 0.79,
+  "pot_kharaba": 0.07,
+  "assessment": 1.57,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "विठ्ठल रघुनाथ देशमुख",
+      "share_area": 0.46,
+      "assessment_share": 0.84
+    },
+    {
+      "name": "सुनंदा हरिभाऊ भोसले",
+      "share_area": 0.27,
+      "assessment_share": 0.49
+    },
+    {
+      "name": "नामदेव सुनील बनसोडे",
+      "share_area": 0.13,
+      "assessment_share": 0.24
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1464",
+      "date": "2003-11-17",
+      "type": "gift",
+      "from_owner": "विठ्ठल रघुनाथ देशमुख",
+      "to_owner": "सुनंदा हरिभाऊ भोसले",
+      "area": 0.4
+    },
+    {
+      "mutation_number": "1734",
+      "date": "2006-07-30",
+      "type": "sale",
+      "from_owner": "सुनंदा हरिभाऊ भोसले",
+      "to_owner": "नामदेव सुनील बनसोडे",
+      "area": 0.13
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 0.65,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "कापूस",
+      "area": 0.66,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 0.75,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 0.65,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.53,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "हरभरा",
+      "area": 0.43,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0155",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0157.jpg"
+}

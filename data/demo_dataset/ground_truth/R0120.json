@@ -1,0 +1,97 @@
+{
+  "record_id": "R0120",
+  "family_id": "F0050",
+  "role": "hissa",
+  "district": "पुणे",
+  "taluka": "शिरूर",
+  "village": "जांभूळवस्ती",
+  "survey_number": "204",
+  "hissa_number": "2",
+  "khata_number": "639",
+  "total_area": 0.73,
+  "cultivable_area": 0.69,
+  "pot_kharaba": 0.04,
+  "assessment": 2.76,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "कलावती भास्कर कदम",
+      "share_area": 0.41,
+      "assessment_share": 1.55
+    },
+    {
+      "name": "सखाराम महादेव पवार",
+      "share_area": 0.21,
+      "assessment_share": 0.79
+    },
+    {
+      "name": "तुकाराम राम देशमुख",
+      "share_area": 0.11,
+      "assessment_share": 0.42
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1070",
+      "date": "2002-05-10",
+      "type": "inheritance",
+      "from_owner": "बबन कृष्णा चव्हाण",
+      "to_owner": "वत्सला सखाराम गायकवाड",
+      "area": 0.73
+    },
+    {
+      "mutation_number": "1228",
+      "date": "2004-08-03",
+      "type": "sale",
+      "from_owner": "वत्सला सखाराम गायकवाड",
+      "to_owner": "तुकाराम राम देशमुख",
+      "area": 0.32
+    },
+    {
+      "mutation_number": "1392",
+      "date": "2008-01-16",
+      "type": "gift",
+      "from_owner": "तुकाराम राम देशमुख",
+      "to_owner": "सखाराम महादेव पवार",
+      "area": 0.21
+    },
+    {
+      "mutation_number": "1669",
+      "date": "2009-06-15",
+      "type": "inheritance",
+      "from_owner": "वत्सला सखाराम गायकवाड",
+      "to_owner": "कलावती भास्कर कदम",
+      "area": 0.41
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.66,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.56,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 0.64,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0118",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0120.jpg"
+}

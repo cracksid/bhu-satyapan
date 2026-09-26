@@ -1,0 +1,118 @@
+{
+  "record_id": "R0035",
+  "family_id": "F0014",
+  "role": "hissa",
+  "district": "सातारा",
+  "taluka": "फलटण",
+  "village": "रानतळेवाडी",
+  "survey_number": "37",
+  "hissa_number": "2",
+  "khata_number": "646",
+  "total_area": 0.75,
+  "cultivable_area": 0.66,
+  "pot_kharaba": 0.09,
+  "assessment": 1.9,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "शांता हरिभाऊ जगताप",
+      "share_area": 0.41,
+      "assessment_share": 1.04
+    },
+    {
+      "name": "लक्ष्मी सखाराम काळे",
+      "share_area": 0.17,
+      "assessment_share": 0.43
+    },
+    {
+      "name": "बाळासाहेब सखाराम कुलकर्णी",
+      "share_area": 0.17,
+      "assessment_share": 0.43
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1479",
+      "date": "2000-07-31",
+      "type": "gift",
+      "from_owner": "जिजाबाई तुकाराम जगताप",
+      "to_owner": "शोभा बाळासाहेब माने",
+      "area": 0.75
+    },
+    {
+      "mutation_number": "1623",
+      "date": "2001-12-15",
+      "type": "sale",
+      "from_owner": "शोभा बाळासाहेब माने",
+      "to_owner": "लक्ष्मी सखाराम काळे",
+      "area": 0.75
+    },
+    {
+      "mutation_number": "1854",
+      "date": "2003-05-09",
+      "type": "gift",
+      "from_owner": "लक्ष्मी सखाराम काळे",
+      "to_owner": "शांता हरिभाऊ जगताप",
+      "area": 0.41
+    },
+    {
+      "mutation_number": "1944",
+      "date": "2004-03-31",
+      "type": "partition",
+      "from_owner": "लक्ष्मी सखाराम काळे",
+      "to_owner": "बाळासाहेब सखाराम कुलकर्णी",
+      "area": 0.17
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.64,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "तूर",
+      "area": 0.38,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.54,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.45,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.49,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "कापूस",
+      "area": 0.59,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0033",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0035.jpg"
+}

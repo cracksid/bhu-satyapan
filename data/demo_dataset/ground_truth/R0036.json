@@ -1,0 +1,83 @@
+{
+  "record_id": "R0036",
+  "family_id": "F0014",
+  "role": "hissa",
+  "district": "सातारा",
+  "taluka": "फलटण",
+  "village": "रानतळेवाडी",
+  "survey_number": "37",
+  "hissa_number": "3",
+  "khata_number": "835",
+  "total_area": 0.64,
+  "cultivable_area": 0.58,
+  "pot_kharaba": 0.06,
+  "assessment": 1.59,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "प्रकाश कृष्णा मोरे",
+      "share_area": 0.33,
+      "assessment_share": 0.82
+    },
+    {
+      "name": "दत्तात्रय केशव जगताप",
+      "share_area": 0.31,
+      "assessment_share": 0.77
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 195000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1396",
+      "date": "2004-07-11",
+      "type": "inheritance",
+      "from_owner": "बबन प्रकाश तांबे",
+      "to_owner": "दत्तात्रय केशव जगताप",
+      "area": 0.64
+    },
+    {
+      "mutation_number": "1538",
+      "date": "2008-05-12",
+      "type": "sale",
+      "from_owner": "दत्तात्रय केशव जगताप",
+      "to_owner": "प्रकाश कृष्णा मोरे",
+      "area": 0.33
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.5,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.33,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.31,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.54,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0033",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0036.jpg"
+}

@@ -1,0 +1,93 @@
+{
+  "record_id": "R0159",
+  "family_id": "F0067",
+  "role": "parent",
+  "district": "कोल्हापूर",
+  "taluka": "पन्हाळा",
+  "village": "कवठेमळा",
+  "survey_number": "201",
+  "hissa_number": null,
+  "khata_number": "469",
+  "total_area": 1.46,
+  "cultivable_area": 1.4,
+  "pot_kharaba": 0.06,
+  "assessment": 2.17,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "राम यशवंत गायकवाड",
+      "share_area": 0.96,
+      "assessment_share": 1.43
+    },
+    {
+      "name": "हरिभाऊ यशवंत माने",
+      "share_area": 0.5,
+      "assessment_share": 0.74
+    }
+  ],
+  "other_rights": [
+    "रस्ता हक्क"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1550",
+      "date": "2003-11-11",
+      "type": "gift",
+      "from_owner": "हरिभाऊ यशवंत माने",
+      "to_owner": "शिवाजी राम वाघमारे",
+      "area": 0.96
+    },
+    {
+      "mutation_number": "1841",
+      "date": "2005-02-04",
+      "type": "inheritance",
+      "from_owner": "शिवाजी राम वाघमारे",
+      "to_owner": "हरिभाऊ प्रकाश वाघमारे",
+      "area": 0.96
+    },
+    {
+      "mutation_number": "2124",
+      "date": "2008-04-22",
+      "type": "inheritance",
+      "from_owner": "सुरेश विठ्ठल पाटील",
+      "to_owner": "राम यशवंत गायकवाड",
+      "area": 0.96
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 0.92,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.81,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 1.3,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "broken_mutation_chain",
+      "record_id": "R0159",
+      "detail": "mutation 2124 is transferred by सुरेश विठ्ठल पाटील, who was not an owner at that time (the holder was हरिभाऊ प्रकाश वाघमारे)",
+      "fields": [
+        "mutations"
+      ]
+    }
+  ],
+  "image_file": "images/R0159.jpg"
+}

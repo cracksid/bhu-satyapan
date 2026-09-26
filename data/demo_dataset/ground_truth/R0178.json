@@ -1,0 +1,88 @@
+{
+  "record_id": "R0178",
+  "family_id": "F0072",
+  "role": "hissa",
+  "district": "पुणे",
+  "taluka": "शिरूर",
+  "village": "सोनखेडवाडी",
+  "survey_number": "103",
+  "hissa_number": "3",
+  "khata_number": "389",
+  "total_area": 0.26,
+  "cultivable_area": 0.26,
+  "pot_kharaba": 0.0,
+  "assessment": 0.41,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "रखमाबाई बाळासाहेब गायकवाड",
+      "share_area": 0.13,
+      "assessment_share": 0.2
+    },
+    {
+      "name": "कलावती भास्कर शिंदे",
+      "share_area": 0.08,
+      "assessment_share": 0.13
+    },
+    {
+      "name": "हरिभाऊ केशव काळे",
+      "share_area": 0.05,
+      "assessment_share": 0.08
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1662",
+      "date": "2002-08-13",
+      "type": "partition",
+      "from_owner": "सरस्वती रमेश कदम",
+      "to_owner": "शिवाजी बाळासाहेब पवार",
+      "area": 0.13
+    },
+    {
+      "mutation_number": "1710",
+      "date": "2005-05-29",
+      "type": "gift",
+      "from_owner": "सरस्वती रमेश कदम",
+      "to_owner": "कलावती भास्कर शिंदे",
+      "area": 0.13
+    },
+    {
+      "mutation_number": "1974",
+      "date": "2008-07-31",
+      "type": "gift",
+      "from_owner": "कलावती भास्कर शिंदे",
+      "to_owner": "हरिभाऊ केशव काळे",
+      "area": 0.05
+    },
+    {
+      "mutation_number": "2132",
+      "date": "2010-03-21",
+      "type": "sale",
+      "from_owner": "शिवाजी बाळासाहेब पवार",
+      "to_owner": "रखमाबाई बाळासाहेब गायकवाड",
+      "area": 0.13
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.13,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.15,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0175",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0178.jpg"
+}

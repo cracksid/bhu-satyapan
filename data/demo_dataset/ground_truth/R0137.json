@@ -1,0 +1,116 @@
+{
+  "record_id": "R0137",
+  "family_id": "F0057",
+  "role": "hissa",
+  "district": "पुणे",
+  "taluka": "हवेली",
+  "village": "सोनखेडवाडी",
+  "survey_number": "474",
+  "hissa_number": "3",
+  "khata_number": "872",
+  "total_area": 1.2,
+  "cultivable_area": 1.2,
+  "pot_kharaba": 0.0,
+  "assessment": 2.68,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "हरिभाऊ केशव घाडगे",
+      "share_area": 0.48,
+      "assessment_share": 1.07
+    },
+    {
+      "name": "नामदेव दत्तात्रय भोसले",
+      "share_area": 0.31,
+      "assessment_share": 0.69
+    },
+    {
+      "name": "हरिभाऊ सखाराम देशमुख",
+      "share_area": 0.29,
+      "assessment_share": 0.65
+    },
+    {
+      "name": "शांता सखाराम चव्हाण",
+      "share_area": 0.12,
+      "assessment_share": 0.27
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 275000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2091",
+      "date": "1998-04-10",
+      "type": "inheritance",
+      "from_owner": "लक्ष्मी प्रकाश दाभाडे",
+      "to_owner": "नामदेव दत्तात्रय भोसले",
+      "area": 1.2
+    },
+    {
+      "mutation_number": "2260",
+      "date": "1999-09-13",
+      "type": "gift",
+      "from_owner": "नामदेव दत्तात्रय भोसले",
+      "to_owner": "हरिभाऊ सखाराम देशमुख",
+      "area": 0.41
+    },
+    {
+      "mutation_number": "2383",
+      "date": "2000-12-07",
+      "type": "gift",
+      "from_owner": "हरिभाऊ सखाराम देशमुख",
+      "to_owner": "शांता सखाराम चव्हाण",
+      "area": 0.12
+    },
+    {
+      "mutation_number": "2490",
+      "date": "2004-04-24",
+      "type": "partition",
+      "from_owner": "नामदेव दत्तात्रय भोसले",
+      "to_owner": "हरिभाऊ केशव घाडगे",
+      "area": 0.48
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 0.8,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "तूर",
+      "area": 1.16,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 0.77,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "कापूस",
+      "area": 0.52,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.52,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0134",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0137.jpg"
+}

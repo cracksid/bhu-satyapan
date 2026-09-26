@@ -1,0 +1,97 @@
+{
+  "record_id": "R0023",
+  "family_id": "F0011",
+  "role": "parent",
+  "district": "कोल्हापूर",
+  "taluka": "हातकणंगले",
+  "village": "वडगव्हाण खुर्द",
+  "survey_number": "348",
+  "hissa_number": null,
+  "khata_number": "454",
+  "total_area": 1.23,
+  "cultivable_area": 1.12,
+  "pot_kharaba": 0.11,
+  "assessment": 3.4,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "सखाराम केशव जाधव",
+      "share_area": 0.64,
+      "assessment_share": 1.77
+    },
+    {
+      "name": "रमेश दत्तात्रय दाभाडे",
+      "share_area": 0.59,
+      "assessment_share": 1.63
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1148",
+      "date": "1999-01-12",
+      "type": "sale",
+      "from_owner": "भास्कर सखाराम भोसले",
+      "to_owner": "अनुसया दत्तात्रय माने",
+      "area": 1.23
+    },
+    {
+      "mutation_number": "1400",
+      "date": "2001-12-06",
+      "type": "inheritance",
+      "from_owner": "अनुसया दत्तात्रय माने",
+      "to_owner": "हरिभाऊ तुकाराम जगताप",
+      "area": 1.23
+    },
+    {
+      "mutation_number": "1463",
+      "date": "2004-04-18",
+      "type": "inheritance",
+      "from_owner": "हरिभाऊ तुकाराम जगताप",
+      "to_owner": "सखाराम केशव जाधव",
+      "area": 1.23
+    },
+    {
+      "mutation_number": "1622",
+      "date": "2005-04-20",
+      "type": "gift",
+      "from_owner": "सखाराम केशव जाधव",
+      "to_owner": "रमेश दत्तात्रय दाभाडे",
+      "area": 0.59
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 0.6,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 0.59,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.64,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 0.95,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0023.jpg"
+}

@@ -1,0 +1,93 @@
+{
+  "record_id": "R0165",
+  "family_id": "F0069",
+  "role": "parent",
+  "district": "सातारा",
+  "taluka": "पाटण",
+  "village": "वडगव्हाण खुर्द",
+  "survey_number": "294",
+  "hissa_number": null,
+  "khata_number": "407",
+  "total_area": 1.91,
+  "cultivable_area": 1.91,
+  "pot_kharaba": 0.0,
+  "assessment": 5.75,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "अशोक नामदेव राऊत",
+      "share_area": 1.91,
+      "assessment_share": 5.75
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 105000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1943",
+      "date": "2003-04-11",
+      "type": "sale",
+      "from_owner": "शोभा दिलीप जाधव",
+      "to_owner": "रघुनाथ सुनील भोसले",
+      "area": 2.14
+    },
+    {
+      "mutation_number": "2014",
+      "date": "2003-11-15",
+      "type": "gift",
+      "from_owner": "रघुनाथ सुनील भोसले",
+      "to_owner": "अनुसया अशोक देशमुख",
+      "area": 2.14
+    },
+    {
+      "mutation_number": "2097",
+      "date": "2006-09-21",
+      "type": "sale",
+      "from_owner": "अनुसया अशोक देशमुख",
+      "to_owner": "अशोक नामदेव राऊत",
+      "area": 2.14
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 1.31,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 1.99,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 1.22,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0166",
+    "R0167",
+    "R0168"
+  ],
+  "defects": [
+    {
+      "type": "hissa_area_mismatch",
+      "record_id": "R0165",
+      "detail": "parent area is 1.91 ha but its 3 hissa records add up to 2.14 ha",
+      "fields": [
+        "total_area",
+        "hissa_record_ids"
+      ]
+    }
+  ],
+  "image_file": "images/R0165.jpg"
+}

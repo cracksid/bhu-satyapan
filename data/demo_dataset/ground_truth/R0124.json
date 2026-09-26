@@ -1,0 +1,91 @@
+{
+  "record_id": "R0124",
+  "family_id": "F0052",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "राहुरी",
+  "village": "बोरमाळवाडी",
+  "survey_number": "232",
+  "hissa_number": "1",
+  "khata_number": "778",
+  "total_area": 0.78,
+  "cultivable_area": 0.78,
+  "pot_kharaba": 0.0,
+  "assessment": 1.99,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "बबन रघुनाथ काळे",
+      "share_area": 0.78,
+      "assessment_share": 1.99
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "2071",
+      "date": "2008-02-05",
+      "type": "gift",
+      "from_owner": "मीरा यशवंत राऊत",
+      "to_owner": "जिजाबाई अनिल वाघमारे",
+      "area": 0.78
+    },
+    {
+      "mutation_number": "2236",
+      "date": "2010-08-15",
+      "type": "sale",
+      "from_owner": "जिजाबाई अनिल वाघमारे",
+      "to_owner": "गणेश संतोष भोसले",
+      "area": 0.78
+    },
+    {
+      "mutation_number": "2269",
+      "date": "2013-02-14",
+      "type": "gift",
+      "from_owner": "गणेश संतोष भोसले",
+      "to_owner": "बबन रघुनाथ काळे",
+      "area": 0.78
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.72,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.32,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 0.53,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.32,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 0.32,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0123",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0124.jpg"
+}

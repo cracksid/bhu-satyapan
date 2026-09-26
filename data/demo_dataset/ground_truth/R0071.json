@@ -1,0 +1,105 @@
+{
+  "record_id": "R0071",
+  "family_id": "F0027",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "पारनेर",
+  "village": "मोरचिंचोली",
+  "survey_number": "399",
+  "hissa_number": "2",
+  "khata_number": "302",
+  "total_area": 1.58,
+  "cultivable_area": 1.53,
+  "pot_kharaba": 0.05,
+  "assessment": 5.68,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "केशव रमेश जाधव",
+      "share_area": 1.09,
+      "assessment_share": 3.91
+    },
+    {
+      "name": "हरिभाऊ सुरेश निकम",
+      "share_area": 0.33,
+      "assessment_share": 1.19
+    },
+    {
+      "name": "पार्वती बबन चव्हाण",
+      "share_area": 0.16,
+      "assessment_share": 0.58
+    }
+  ],
+  "other_rights": [
+    "विविध कार्यकारी सोसायटी कर्ज रु. 75000",
+    "कूळ: रघुनाथ बाळासाहेब शेलार",
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1668",
+      "date": "2000-10-15",
+      "type": "inheritance",
+      "from_owner": "महादेव हरिभाऊ चव्हाण",
+      "to_owner": "पार्वती बबन चव्हाण",
+      "area": 1.58
+    },
+    {
+      "mutation_number": "1883",
+      "date": "2001-08-07",
+      "type": "gift",
+      "from_owner": "पार्वती बबन चव्हाण",
+      "to_owner": "केशव रमेश जाधव",
+      "area": 1.09
+    },
+    {
+      "mutation_number": "2031",
+      "date": "2002-03-21",
+      "type": "gift",
+      "from_owner": "पार्वती बबन चव्हाण",
+      "to_owner": "हरिभाऊ सुरेश निकम",
+      "area": 0.33
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.85,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 1.39,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 1.26,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 0.75,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 1.39,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0069",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0071.jpg"
+}

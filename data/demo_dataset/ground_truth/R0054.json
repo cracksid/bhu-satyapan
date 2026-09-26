@@ -1,0 +1,100 @@
+{
+  "record_id": "R0054",
+  "family_id": "F0021",
+  "role": "hissa",
+  "district": "सोलापूर",
+  "taluka": "माळशिरस",
+  "village": "हिवरतांडा",
+  "survey_number": "280",
+  "hissa_number": "2",
+  "khata_number": "246",
+  "total_area": 0.26,
+  "cultivable_area": 0.24,
+  "pot_kharaba": 0.02,
+  "assessment": 1.06,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "मंगल दिलीप जाधव",
+      "share_area": 0.18,
+      "assessment_share": 0.73
+    },
+    {
+      "name": "बाळासाहेब हरिभाऊ जगताप",
+      "share_area": 0.08,
+      "assessment_share": 0.33
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "2310",
+      "date": "2001-04-03",
+      "type": "inheritance",
+      "from_owner": "भास्कर बाळासाहेब वाघमारे",
+      "to_owner": "राम प्रकाश पाटील",
+      "area": 0.26
+    },
+    {
+      "mutation_number": "2607",
+      "date": "2003-02-09",
+      "type": "sale",
+      "from_owner": "राम प्रकाश पाटील",
+      "to_owner": "बाळासाहेब हरिभाऊ जगताप",
+      "area": 0.08
+    },
+    {
+      "mutation_number": "2680",
+      "date": "2005-05-18",
+      "type": "inheritance",
+      "from_owner": "राम प्रकाश पाटील",
+      "to_owner": "मंगल दिलीप जाधव",
+      "area": 0.18
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 0.16,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 0.11,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.18,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "कापूस",
+      "area": 0.19,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0052",
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "duplicate_record",
+      "record_id": "R0054",
+      "detail": "survey number 280 hissa 2 in हिवरतांडा is recorded twice: on R0054 and on R0202",
+      "fields": [
+        "village",
+        "survey_number",
+        "hissa_number"
+      ]
+    }
+  ],
+  "image_file": "images/R0054.jpg"
+}

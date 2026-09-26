@@ -1,0 +1,92 @@
+{
+  "record_id": "R0198",
+  "family_id": "F0081",
+  "role": "parent",
+  "district": "अहिल्यानगर",
+  "taluka": "श्रीगोंदा",
+  "village": "रानतळेवाडी",
+  "survey_number": "185",
+  "hissa_number": null,
+  "khata_number": "187",
+  "total_area": 1.26,
+  "cultivable_area": 1.12,
+  "pot_kharaba": 0.14,
+  "assessment": 2.69,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "गणेश शिवाजी कदम",
+      "share_area": 0.78,
+      "assessment_share": 1.67
+    },
+    {
+      "name": "शोभा दिलीप थोरात",
+      "share_area": 0.33,
+      "assessment_share": 0.7
+    },
+    {
+      "name": "रमेश भास्कर माने",
+      "share_area": 0.15,
+      "assessment_share": 0.32
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 25000",
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1993",
+      "date": "1999-07-08",
+      "type": "partition",
+      "from_owner": "शोभा दिलीप थोरात",
+      "to_owner": "गणेश शिवाजी कदम",
+      "area": 0.78
+    },
+    {
+      "mutation_number": "2245",
+      "date": "2002-07-13",
+      "type": "sale",
+      "from_owner": "शोभा दिलीप थोरात",
+      "to_owner": "रमेश भास्कर माने",
+      "area": 0.15
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.81,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.96,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.99,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 0.68,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0199",
+    "R0200"
+  ],
+  "defects": [],
+  "image_file": "images/R0198.jpg"
+}

@@ -1,0 +1,95 @@
+{
+  "record_id": "R0169",
+  "family_id": "F0070",
+  "role": "parent",
+  "district": "नाशिक",
+  "taluka": "येवला",
+  "village": "धानोरमाळ",
+  "survey_number": "181",
+  "hissa_number": null,
+  "khata_number": "370",
+  "total_area": 0.9,
+  "cultivable_area": 0.84,
+  "pot_kharaba": 0.06,
+  "assessment": 1.55,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "दिलीप शिवाजी दाभाडे",
+      "share_area": 0.67,
+      "assessment_share": 1.55
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "2382",
+      "date": "2004-12-19",
+      "type": "gift",
+      "from_owner": "रमेश महादेव काळे",
+      "to_owner": "दत्तात्रय राम देशमुख",
+      "area": 0.9
+    },
+    {
+      "mutation_number": "2578",
+      "date": "2006-05-21",
+      "type": "inheritance",
+      "from_owner": "दत्तात्रय राम देशमुख",
+      "to_owner": "महादेव बबन गायकवाड",
+      "area": 0.9
+    },
+    {
+      "mutation_number": "2602",
+      "date": "2009-05-04",
+      "type": "gift",
+      "from_owner": "महादेव बबन गायकवाड",
+      "to_owner": "इंदुबाई गणेश दाभाडे",
+      "area": 0.9
+    },
+    {
+      "mutation_number": "2748",
+      "date": "2012-04-16",
+      "type": "inheritance",
+      "from_owner": "इंदुबाई गणेश दाभाडे",
+      "to_owner": "दिलीप शिवाजी दाभाडे",
+      "area": 0.9
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 0.69,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.84,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.4,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "owner_share_mismatch",
+      "record_id": "R0169",
+      "detail": "owner shares add up to 0.67 ha but the total area is 0.90 ha",
+      "fields": [
+        "owners",
+        "total_area"
+      ]
+    }
+  ],
+  "image_file": "images/R0169.jpg"
+}

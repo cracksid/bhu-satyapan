@@ -225,6 +225,15 @@ def dataset(size: int = 30) -> int:
         if family_id not in chosen_families and not any(m["defects"] for m in members):
             chosen_families.append(family_id)
 
+    # Clean families first, above, so a small dataset stays calm to look at.
+    # Anything still missing is defective; take it only if there is room, which
+    # is how asking for the whole batch copies every record.
+    for family_id in families:
+        if sum(len(families[f]) for f in chosen_families) >= size:
+            break
+        if family_id not in chosen_families:
+            chosen_families.append(family_id)
+
     shutil.rmtree(target, ignore_errors=True)
     (target / "images").mkdir(parents=True)
     (target / "ground_truth").mkdir(parents=True)
@@ -274,7 +283,13 @@ def main(argv=None) -> int:
     if args.command == "pick":
         return pick()
     if args.command == "dataset":
-        return dataset()
+        # "dataset 210" copies the whole batch; "dataset" keeps it small.
+        if not args.records:
+            return dataset()
+        if not args.records[0].isdigit():
+            print(f"How many records? e.g.  python -m src.demo dataset 210")
+            return 1
+        return dataset(int(args.records[0]))
 
     record_ids = args.records or list(demo_records().values())
     if not record_ids:

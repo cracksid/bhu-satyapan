@@ -1,0 +1,101 @@
+{
+  "record_id": "R0140",
+  "family_id": "F0059",
+  "role": "parent",
+  "district": "कोल्हापूर",
+  "taluka": "हातकणंगले",
+  "village": "निंबतळेवाडी",
+  "survey_number": "298",
+  "hissa_number": null,
+  "khata_number": "135",
+  "total_area": 2.96,
+  "cultivable_area": 2.96,
+  "pot_kharaba": 0.0,
+  "assessment": 13.09,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "यशवंत कृष्णा गायकवाड",
+      "share_area": 1.12,
+      "assessment_share": 4.95
+    },
+    {
+      "name": "जिजाबाई महादेव शिंदे",
+      "share_area": 1.01,
+      "assessment_share": 4.47
+    },
+    {
+      "name": "जिजाबाई केशव गायकवाड",
+      "share_area": 0.83,
+      "assessment_share": 3.67
+    }
+  ],
+  "other_rights": [
+    "रस्ता हक्क"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1188",
+      "date": "1999-07-22",
+      "type": "sale",
+      "from_owner": "प्रकाश हरिभाऊ काळे",
+      "to_owner": "जिजाबाई केशव गायकवाड",
+      "area": 1.84
+    },
+    {
+      "mutation_number": "1334",
+      "date": "2001-07-03",
+      "type": "gift",
+      "from_owner": "प्रकाश हरिभाऊ काळे",
+      "to_owner": "यशवंत कृष्णा गायकवाड",
+      "area": 1.12
+    },
+    {
+      "mutation_number": "1475",
+      "date": "2004-12-18",
+      "type": "gift",
+      "from_owner": "जिजाबाई केशव गायकवाड",
+      "to_owner": "जिजाबाई महादेव शिंदे",
+      "area": 1.01
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 2.3,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "बाजरी",
+      "area": 2.39,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 1.9,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ऊस",
+      "area": 2.72,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0141",
+    "R0142",
+    "R0143",
+    "R0144"
+  ],
+  "defects": [],
+  "image_file": "images/R0140.jpg"
+}

@@ -1,0 +1,83 @@
+{
+  "record_id": "R0191",
+  "family_id": "F0078",
+  "role": "parent",
+  "district": "सोलापूर",
+  "taluka": "माढा",
+  "village": "सोनखेडवाडी",
+  "survey_number": "147",
+  "hissa_number": null,
+  "khata_number": "659",
+  "total_area": 0.93,
+  "cultivable_area": 0.93,
+  "pot_kharaba": 0.0,
+  "assessment": 3.45,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "प्रकाश रमेश शेलार",
+      "share_area": 0.65,
+      "assessment_share": 2.41
+    },
+    {
+      "name": "यशवंत प्रकाश राऊत",
+      "share_area": 0.28,
+      "assessment_share": 1.04
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 20000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1876",
+      "date": "2006-12-11",
+      "type": "sale",
+      "from_owner": "राम केशव भोसले",
+      "to_owner": "प्रकाश रमेश शेलार",
+      "area": 0.65
+    },
+    {
+      "mutation_number": "1971",
+      "date": "2008-06-05",
+      "type": "sale",
+      "from_owner": "राम केशव भोसले",
+      "to_owner": "यशवंत प्रकाश राऊत",
+      "area": 0.28
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.75,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.85,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 0.39,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.49,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0191.jpg"
+}

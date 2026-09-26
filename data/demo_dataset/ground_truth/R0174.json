@@ -1,0 +1,104 @@
+{
+  "record_id": "R0174",
+  "family_id": "F0071",
+  "role": "hissa",
+  "district": "सोलापूर",
+  "taluka": "पंढरपूर",
+  "village": "शिरसमाळवाडी",
+  "survey_number": "86",
+  "hissa_number": "4",
+  "khata_number": "603",
+  "total_area": 0.69,
+  "cultivable_area": 0.62,
+  "pot_kharaba": 0.07,
+  "assessment": 1.28,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "सरस्वती संतोष कुलकर्णी",
+      "share_area": 0.38,
+      "assessment_share": 0.7
+    },
+    {
+      "name": "बबन नामदेव जगताप",
+      "share_area": 0.31,
+      "assessment_share": 0.58
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "906",
+      "date": "2004-01-02",
+      "type": "partition",
+      "from_owner": "बबन नामदेव जगताप",
+      "to_owner": "कलावती दत्तात्रय सावंत",
+      "area": 0.38
+    },
+    {
+      "mutation_number": "1092",
+      "date": "2005-10-14",
+      "type": "inheritance",
+      "from_owner": "कलावती दत्तात्रय सावंत",
+      "to_owner": "जिजाबाई केशव दाभाडे",
+      "area": 0.38
+    },
+    {
+      "mutation_number": "1191",
+      "date": "2008-07-19",
+      "type": "inheritance",
+      "from_owner": "जिजाबाई केशव दाभाडे",
+      "to_owner": "कमल रघुनाथ देशमुख",
+      "area": 0.38
+    },
+    {
+      "mutation_number": "1258",
+      "date": "2011-10-13",
+      "type": "inheritance",
+      "from_owner": "कमल रघुनाथ देशमुख",
+      "to_owner": "सरस्वती संतोष कुलकर्णी",
+      "area": 0.38
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.31,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 0.32,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "बाजरी",
+      "area": 0.41,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.52,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 0.47,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0170",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0174.jpg"
+}

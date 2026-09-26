@@ -1,0 +1,96 @@
+{
+  "record_id": "R0074",
+  "family_id": "F0028",
+  "role": "parent",
+  "district": "सातारा",
+  "taluka": "फलटण",
+  "village": "बोरमाळवाडी",
+  "survey_number": "242",
+  "hissa_number": null,
+  "khata_number": "383",
+  "total_area": 3.69,
+  "cultivable_area": 3.69,
+  "pot_kharaba": 0.0,
+  "assessment": 9.58,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "राम हरिभाऊ जगताप",
+      "share_area": 2.28,
+      "assessment_share": 5.92
+    },
+    {
+      "name": "वत्सला सुनील बनसोडे",
+      "share_area": 1.41,
+      "assessment_share": 3.66
+    }
+  ],
+  "other_rights": [
+    "विविध कार्यकारी सोसायटी कर्ज रु. 195000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1383",
+      "date": "1999-05-12",
+      "type": "gift",
+      "from_owner": "बाळासाहेब रघुनाथ बनसोडे",
+      "to_owner": "राम हरिभाऊ जगताप",
+      "area": 3.69
+    },
+    {
+      "mutation_number": "1670",
+      "date": "1999-12-12",
+      "type": "sale",
+      "from_owner": "राम हरिभाऊ जगताप",
+      "to_owner": "केशव सुनील भोसले",
+      "area": 1.41
+    },
+    {
+      "mutation_number": "1769",
+      "date": "2001-02-02",
+      "type": "partition",
+      "from_owner": "केशव सुनील भोसले",
+      "to_owner": "वत्सला सुनील बनसोडे",
+      "area": 1.41
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 2.75,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "गहू",
+      "area": 3.37,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 3.21,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 2.6,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0075",
+    "R0076",
+    "R0077",
+    "R0078"
+  ],
+  "defects": [],
+  "image_file": "images/R0074.jpg"
+}

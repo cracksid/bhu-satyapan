@@ -1,0 +1,99 @@
+{
+  "record_id": "R0058",
+  "family_id": "F0023",
+  "role": "parent",
+  "district": "नाशिक",
+  "taluka": "दिंडोरी",
+  "village": "कवठेमळा",
+  "survey_number": "393",
+  "hissa_number": null,
+  "khata_number": "629",
+  "total_area": 3.65,
+  "cultivable_area": 3.65,
+  "pot_kharaba": 0.0,
+  "assessment": 10.78,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "सुनंदा कृष्णा माने",
+      "share_area": 1.22,
+      "assessment_share": 3.61
+    },
+    {
+      "name": "कृष्णा रघुनाथ चव्हाण",
+      "share_area": 1.09,
+      "assessment_share": 3.22
+    },
+    {
+      "name": "सुनील प्रकाश जगताप",
+      "share_area": 0.78,
+      "assessment_share": 2.3
+    },
+    {
+      "name": "बबन सुनील थोरात",
+      "share_area": 0.56,
+      "assessment_share": 1.65
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 70000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2010",
+      "date": "2006-01-27",
+      "type": "partition",
+      "from_owner": "बबन सुनील थोरात",
+      "to_owner": "सुनंदा कृष्णा माने",
+      "area": 2.0
+    },
+    {
+      "mutation_number": "2151",
+      "date": "2008-06-23",
+      "type": "gift",
+      "from_owner": "बबन सुनील थोरात",
+      "to_owner": "कृष्णा रघुनाथ चव्हाण",
+      "area": 1.09
+    },
+    {
+      "mutation_number": "2314",
+      "date": "2010-10-07",
+      "type": "sale",
+      "from_owner": "सुनंदा कृष्णा माने",
+      "to_owner": "भास्कर बाळासाहेब सावंत",
+      "area": 0.78
+    },
+    {
+      "mutation_number": "2471",
+      "date": "2013-02-10",
+      "type": "sale",
+      "from_owner": "भास्कर बाळासाहेब सावंत",
+      "to_owner": "सुनील प्रकाश जगताप",
+      "area": 0.78
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 1.88,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 1.53,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0059",
+    "R0060",
+    "R0061"
+  ],
+  "defects": [],
+  "image_file": "images/R0058.jpg"
+}

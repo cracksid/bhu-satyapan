@@ -1,0 +1,82 @@
+{
+  "record_id": "R0188",
+  "family_id": "F0077",
+  "role": "hissa",
+  "district": "नाशिक",
+  "taluka": "दिंडोरी",
+  "village": "वडगव्हाण खुर्द",
+  "survey_number": "192",
+  "hissa_number": "2",
+  "khata_number": "225",
+  "total_area": 1.48,
+  "cultivable_area": 1.33,
+  "pot_kharaba": 0.15,
+  "assessment": 5.85,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "सुनंदा कृष्णा निकम",
+      "share_area": 0.87,
+      "assessment_share": 3.44
+    },
+    {
+      "name": "सरस्वती दिलीप तांबे",
+      "share_area": 0.35,
+      "assessment_share": 1.38
+    },
+    {
+      "name": "बबन अनिल शिंदे",
+      "share_area": 0.26,
+      "assessment_share": 1.03
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 90000",
+    "रस्ता हक्क"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2380",
+      "date": "2004-12-18",
+      "type": "gift",
+      "from_owner": "सुनंदा कृष्णा निकम",
+      "to_owner": "बबन अनिल शिंदे",
+      "area": 0.61
+    },
+    {
+      "mutation_number": "2560",
+      "date": "2008-08-18",
+      "type": "sale",
+      "from_owner": "बबन अनिल शिंदे",
+      "to_owner": "सरस्वती दिलीप तांबे",
+      "area": 0.35
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.6,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 0.74,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 1.29,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0186",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0188.jpg"
+}

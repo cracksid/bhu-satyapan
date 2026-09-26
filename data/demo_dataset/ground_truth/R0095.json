@@ -1,0 +1,85 @@
+{
+  "record_id": "R0095",
+  "family_id": "F0038",
+  "role": "hissa",
+  "district": "सातारा",
+  "taluka": "फलटण",
+  "village": "करंजतळे",
+  "survey_number": "462",
+  "hissa_number": "1",
+  "khata_number": "377",
+  "total_area": 1.28,
+  "cultivable_area": 1.28,
+  "pot_kharaba": 0.0,
+  "assessment": 5.64,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "गणेश प्रकाश दाभाडे",
+      "share_area": 1.28,
+      "assessment_share": 5.64
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "2201",
+      "date": "2006-01-25",
+      "type": "sale",
+      "from_owner": "मंगल सुनील चव्हाण",
+      "to_owner": "कृष्णा केशव वाघमारे",
+      "area": 1.28
+    },
+    {
+      "mutation_number": "2339",
+      "date": "2008-02-10",
+      "type": "inheritance",
+      "from_owner": "कृष्णा केशव वाघमारे",
+      "to_owner": "कृष्णा अनिल शिंदे",
+      "area": 1.28
+    },
+    {
+      "mutation_number": "2427",
+      "date": "2011-05-01",
+      "type": "partition",
+      "from_owner": "कृष्णा अनिल शिंदे",
+      "to_owner": "बाळासाहेब दिलीप राऊत",
+      "area": 1.28
+    },
+    {
+      "mutation_number": "2530",
+      "date": "2012-08-24",
+      "type": "inheritance",
+      "from_owner": "बाळासाहेब दिलीप राऊत",
+      "to_owner": "गणेश प्रकाश दाभाडे",
+      "area": 1.28
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.65,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 1.18,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "कापूस",
+      "area": 0.82,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0094",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0095.jpg"
+}

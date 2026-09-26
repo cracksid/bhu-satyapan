@@ -1,0 +1,96 @@
+{
+  "record_id": "R0190",
+  "family_id": "F0077",
+  "role": "hissa",
+  "district": "नाशिक",
+  "taluka": "दिंडोरी",
+  "village": "वडगव्हाण खुर्द",
+  "survey_number": "192",
+  "hissa_number": "4",
+  "khata_number": "542",
+  "total_area": 1.28,
+  "cultivable_area": 1.2,
+  "pot_kharaba": 0.08,
+  "assessment": 2.1,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "दिलीप राम सावंत",
+      "share_area": 0.77,
+      "assessment_share": 1.26
+    },
+    {
+      "name": "रमेश सुनील कुलकर्णी",
+      "share_area": 0.26,
+      "assessment_share": 0.43
+    },
+    {
+      "name": "अशोक महादेव निकम",
+      "share_area": 0.25,
+      "assessment_share": 0.41
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 125000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1871",
+      "date": "2002-04-21",
+      "type": "gift",
+      "from_owner": "तुकाराम रमेश मोरे",
+      "to_owner": "रमेश सुनील कुलकर्णी",
+      "area": 1.28
+    },
+    {
+      "mutation_number": "1943",
+      "date": "2004-07-28",
+      "type": "gift",
+      "from_owner": "रमेश सुनील कुलकर्णी",
+      "to_owner": "दिलीप राम सावंत",
+      "area": 0.77
+    },
+    {
+      "mutation_number": "2099",
+      "date": "2006-03-03",
+      "type": "gift",
+      "from_owner": "रमेश सुनील कुलकर्णी",
+      "to_owner": "अशोक महादेव निकम",
+      "area": 0.25
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.62,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "कापूस",
+      "area": 0.61,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.79,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ऊस",
+      "area": 1.17,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0186",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0190.jpg"
+}

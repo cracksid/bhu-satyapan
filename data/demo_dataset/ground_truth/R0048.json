@@ -1,0 +1,117 @@
+{
+  "record_id": "R0048",
+  "family_id": "F0019",
+  "role": "parent",
+  "district": "अहिल्यानगर",
+  "taluka": "संगमनेर",
+  "village": "सोनखेडवाडी",
+  "survey_number": "327",
+  "hissa_number": null,
+  "khata_number": "848",
+  "total_area": 2.71,
+  "cultivable_area": 2.47,
+  "pot_kharaba": 0.24,
+  "assessment": 4.62,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "बाळासाहेब विठ्ठल तांबे",
+      "share_area": 1.14,
+      "assessment_share": 1.95
+    },
+    {
+      "name": "लक्ष्मी रघुनाथ जगताप",
+      "share_area": 0.9,
+      "assessment_share": 1.77
+    },
+    {
+      "name": "दत्तात्रय विठ्ठल दाभाडे",
+      "share_area": 0.53,
+      "assessment_share": 0.9
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 60000",
+    "कूळ: संतोष शिवाजी निकम"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1340",
+      "date": "1999-08-20",
+      "type": "partition",
+      "from_owner": "नामदेव प्रकाश कदम",
+      "to_owner": "बाळासाहेब विठ्ठल तांबे",
+      "area": 1.14
+    },
+    {
+      "mutation_number": "1395",
+      "date": "2000-12-24",
+      "type": "inheritance",
+      "from_owner": "नामदेव प्रकाश कदम",
+      "to_owner": "लक्ष्मी रघुनाथ जगताप",
+      "area": 1.57
+    },
+    {
+      "mutation_number": "1492",
+      "date": "2002-09-21",
+      "type": "gift",
+      "from_owner": "लक्ष्मी रघुनाथ जगताप",
+      "to_owner": "दत्तात्रय विठ्ठल दाभाडे",
+      "area": 0.53
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 1.29,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 1.95,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 1.56,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 1.09,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 2.37,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0049",
+    "R0050"
+  ],
+  "defects": [
+    {
+      "type": "owner_share_mismatch",
+      "record_id": "R0048",
+      "detail": "owner shares add up to 2.57 ha but the total area is 2.71 ha",
+      "fields": [
+        "owners",
+        "total_area"
+      ]
+    }
+  ],
+  "image_file": "images/R0048.jpg"
+}

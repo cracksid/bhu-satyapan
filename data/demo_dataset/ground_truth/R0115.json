@@ -1,0 +1,73 @@
+{
+  "record_id": "R0115",
+  "family_id": "F0048",
+  "role": "hissa",
+  "district": "कोल्हापूर",
+  "taluka": "शिरोळ",
+  "village": "सोनखेडवाडी",
+  "survey_number": "414",
+  "hissa_number": "3",
+  "khata_number": "476",
+  "total_area": 1.1,
+  "cultivable_area": 1.1,
+  "pot_kharaba": 0.0,
+  "assessment": 1.78,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "हरिभाऊ प्रकाश वाघमारे",
+      "share_area": 1.1,
+      "assessment_share": 1.78
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 245000",
+    "कूळ: यशवंत नामदेव निकम",
+    "रस्ता हक्क"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2125",
+      "date": "2005-02-25",
+      "type": "inheritance",
+      "from_owner": "राम यशवंत शिंदे",
+      "to_owner": "संतोष केशव गायकवाड",
+      "area": 1.1
+    },
+    {
+      "mutation_number": "2408",
+      "date": "2006-01-03",
+      "type": "sale",
+      "from_owner": "संतोष केशव गायकवाड",
+      "to_owner": "हरिभाऊ प्रकाश वाघमारे",
+      "area": 1.1
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 0.67,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.48,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.74,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0112",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0115.jpg"
+}

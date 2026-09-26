@@ -1,0 +1,77 @@
+{
+  "record_id": "R0049",
+  "family_id": "F0019",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "संगमनेर",
+  "village": "सोनखेडवाडी",
+  "survey_number": "327",
+  "hissa_number": "1",
+  "khata_number": "628",
+  "total_area": 1.35,
+  "cultivable_area": 1.35,
+  "pot_kharaba": 0.0,
+  "assessment": 2.4,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "केशव नामदेव दाभाडे",
+      "share_area": 0.74,
+      "assessment_share": 1.32
+    },
+    {
+      "name": "विठ्ठल यशवंत दाभाडे",
+      "share_area": 0.61,
+      "assessment_share": 1.08
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1312",
+      "date": "2002-12-26",
+      "type": "sale",
+      "from_owner": "मीरा रघुनाथ निकम",
+      "to_owner": "मंगल कृष्णा थोरात",
+      "area": 1.35
+    },
+    {
+      "mutation_number": "1399",
+      "date": "2004-03-29",
+      "type": "inheritance",
+      "from_owner": "मंगल कृष्णा थोरात",
+      "to_owner": "केशव नामदेव दाभाडे",
+      "area": 1.35
+    },
+    {
+      "mutation_number": "1669",
+      "date": "2006-12-28",
+      "type": "partition",
+      "from_owner": "केशव नामदेव दाभाडे",
+      "to_owner": "विठ्ठल यशवंत दाभाडे",
+      "area": 0.61
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 1.05,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.86,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0048",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0049.jpg"
+}

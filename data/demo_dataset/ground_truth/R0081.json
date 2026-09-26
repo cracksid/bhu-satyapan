@@ -1,0 +1,92 @@
+{
+  "record_id": "R0081",
+  "family_id": "F0031",
+  "role": "parent",
+  "district": "नाशिक",
+  "taluka": "सिन्नर",
+  "village": "मोरचिंचोली",
+  "survey_number": "295",
+  "hissa_number": null,
+  "khata_number": "655",
+  "total_area": 1.88,
+  "cultivable_area": 1.67,
+  "pot_kharaba": 0.21,
+  "assessment": 6.33,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "इंदुबाई भास्कर पाटील",
+      "share_area": 1.07,
+      "assessment_share": 3.6
+    },
+    {
+      "name": "अनिल नामदेव वाघमारे",
+      "share_area": 0.81,
+      "assessment_share": 2.73
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 120000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1363",
+      "date": "2001-07-19",
+      "type": "inheritance",
+      "from_owner": "रमेश संतोष जगताप",
+      "to_owner": "अनिल नामदेव वाघमारे",
+      "area": 1.88
+    },
+    {
+      "mutation_number": "1462",
+      "date": "2004-02-03",
+      "type": "sale",
+      "from_owner": "दत्तात्रय केशव पवार",
+      "to_owner": "इंदुबाई भास्कर पाटील",
+      "area": 1.07
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 1.65,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "कापूस",
+      "area": 0.89,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 1.47,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 1.02,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "broken_mutation_chain",
+      "record_id": "R0081",
+      "detail": "mutation 1462 is transferred by दत्तात्रय केशव पवार, who was not an owner at that time (the holder was अनिल नामदेव वाघमारे)",
+      "fields": [
+        "mutations"
+      ]
+    }
+  ],
+  "image_file": "images/R0081.jpg"
+}

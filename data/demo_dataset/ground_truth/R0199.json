@@ -1,0 +1,113 @@
+{
+  "record_id": "R0199",
+  "family_id": "F0081",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "श्रीगोंदा",
+  "village": "रानतळेवाडी",
+  "survey_number": "185",
+  "hissa_number": "1",
+  "khata_number": "901",
+  "total_area": 0.7,
+  "cultivable_area": 0.7,
+  "pot_kharaba": 0.0,
+  "assessment": 1.11,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "शिवाजी दत्तात्रय निकम",
+      "share_area": 0.32,
+      "assessment_share": 0.5
+    },
+    {
+      "name": "प्रकाश राम जाधव",
+      "share_area": 0.25,
+      "assessment_share": 0.4
+    },
+    {
+      "name": "इंदुबाई अशोक साळुंखे",
+      "share_area": 0.28,
+      "assessment_share": 0.21
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1320",
+      "date": "2002-10-17",
+      "type": "sale",
+      "from_owner": "शिवाजी दत्तात्रय निकम",
+      "to_owner": "शोभा गणेश निकम",
+      "area": 0.38
+    },
+    {
+      "mutation_number": "1406",
+      "date": "2006-01-09",
+      "type": "sale",
+      "from_owner": "शोभा गणेश निकम",
+      "to_owner": "इंदुबाई अशोक साळुंखे",
+      "area": 0.38
+    },
+    {
+      "mutation_number": "1646",
+      "date": "2008-07-14",
+      "type": "partition",
+      "from_owner": "इंदुबाई अशोक साळुंखे",
+      "to_owner": "प्रकाश राम जाधव",
+      "area": 0.25
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.6,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.51,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 0.33,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.42,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "ऊस",
+      "area": 0.38,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0198",
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "owner_share_mismatch",
+      "record_id": "R0199",
+      "detail": "owner shares add up to 0.85 ha but the total area is 0.70 ha",
+      "fields": [
+        "owners",
+        "total_area"
+      ]
+    }
+  ],
+  "image_file": "images/R0199.jpg"
+}

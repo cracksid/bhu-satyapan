@@ -1,0 +1,112 @@
+{
+  "record_id": "R0150",
+  "family_id": "F0061",
+  "role": "parent",
+  "district": "कोल्हापूर",
+  "taluka": "पन्हाळा",
+  "village": "देवगव्हाणवाडी",
+  "survey_number": "116",
+  "hissa_number": null,
+  "khata_number": "827",
+  "total_area": 0.6,
+  "cultivable_area": 0.56,
+  "pot_kharaba": 0.04,
+  "assessment": 1.57,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "अनिल गणेश माने",
+      "share_area": 0.6,
+      "assessment_share": 1.04
+    },
+    {
+      "name": "शिवाजी सुरेश काळे",
+      "share_area": 0.14,
+      "assessment_share": 0.37
+    },
+    {
+      "name": "शिवाजी दत्तात्रय चव्हाण",
+      "share_area": 0.06,
+      "assessment_share": 0.16
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1123",
+      "date": "2003-09-30",
+      "type": "gift",
+      "from_owner": "यशवंत सुरेश सावंत",
+      "to_owner": "अनिल गणेश माने",
+      "area": 0.6
+    },
+    {
+      "mutation_number": "1248",
+      "date": "2005-11-19",
+      "type": "partition",
+      "from_owner": "अनिल गणेश माने",
+      "to_owner": "महादेव अनिल शेलार",
+      "area": 0.2
+    },
+    {
+      "mutation_number": "1355",
+      "date": "2006-06-29",
+      "type": "gift",
+      "from_owner": "महादेव अनिल शेलार",
+      "to_owner": "शिवाजी सुरेश काळे",
+      "area": 0.14
+    },
+    {
+      "mutation_number": "1410",
+      "date": "2009-09-20",
+      "type": "inheritance",
+      "from_owner": "महादेव अनिल शेलार",
+      "to_owner": "शिवाजी दत्तात्रय चव्हाण",
+      "area": 0.06
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.46,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.23,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 0.25,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.33,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "owner_share_mismatch",
+      "record_id": "R0150",
+      "detail": "owner shares add up to 0.80 ha but the total area is 0.60 ha",
+      "fields": [
+        "owners",
+        "total_area"
+      ]
+    }
+  ],
+  "image_file": "images/R0150.jpg"
+}

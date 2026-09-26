@@ -1,0 +1,110 @@
+{
+  "record_id": "R0149",
+  "family_id": "F0060",
+  "role": "hissa",
+  "district": "नाशिक",
+  "taluka": "येवला",
+  "village": "बोरमाळवाडी",
+  "survey_number": "419",
+  "hissa_number": "4",
+  "khata_number": "185",
+  "total_area": 0.55,
+  "cultivable_area": 0.49,
+  "pot_kharaba": 0.13,
+  "assessment": 0.85,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "अनुसया रघुनाथ साळुंखे",
+      "share_area": 0.28,
+      "assessment_share": 0.43
+    },
+    {
+      "name": "प्रकाश शिवाजी तांबे",
+      "share_area": 0.27,
+      "assessment_share": 0.42
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 45000",
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1184",
+      "date": "2004-07-09",
+      "type": "sale",
+      "from_owner": "सुनंदा दत्तात्रय चव्हाण",
+      "to_owner": "अनुसया रघुनाथ साळुंखे",
+      "area": 0.55
+    },
+    {
+      "mutation_number": "1225",
+      "date": "2008-05-04",
+      "type": "partition",
+      "from_owner": "अनुसया रघुनाथ साळुंखे",
+      "to_owner": "मंगल रघुनाथ राऊत",
+      "area": 0.27
+    },
+    {
+      "mutation_number": "1384",
+      "date": "2010-08-31",
+      "type": "sale",
+      "from_owner": "मंगल रघुनाथ राऊत",
+      "to_owner": "प्रकाश शिवाजी तांबे",
+      "area": 0.27
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.25,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.28,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ऊस",
+      "area": 0.4,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 0.42,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.43,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0145",
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "area_balance_mismatch",
+      "record_id": "R0149",
+      "detail": "cultivable 0.49 + pot kharaba 0.13 != total 0.55 ha",
+      "fields": [
+        "total_area",
+        "cultivable_area",
+        "pot_kharaba"
+      ]
+    }
+  ],
+  "image_file": "images/R0149.jpg"
+}

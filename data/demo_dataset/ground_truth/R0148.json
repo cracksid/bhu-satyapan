@@ -1,0 +1,98 @@
+{
+  "record_id": "R0148",
+  "family_id": "F0060",
+  "role": "hissa",
+  "district": "नाशिक",
+  "taluka": "येवला",
+  "village": "बोरमाळवाडी",
+  "survey_number": "419",
+  "hissa_number": "3",
+  "khata_number": "387",
+  "total_area": 0.76,
+  "cultivable_area": 0.76,
+  "pot_kharaba": 0.0,
+  "assessment": 2.58,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "केशव नामदेव जाधव",
+      "share_area": 0.53,
+      "assessment_share": 1.8
+    },
+    {
+      "name": "शिवाजी दत्तात्रय पवार",
+      "share_area": 0.23,
+      "assessment_share": 0.78
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1846",
+      "date": "2002-02-09",
+      "type": "sale",
+      "from_owner": "नामदेव रघुनाथ पवार",
+      "to_owner": "शिवाजी दत्तात्रय पवार",
+      "area": 0.76
+    },
+    {
+      "mutation_number": "2059",
+      "date": "2005-08-22",
+      "type": "partition",
+      "from_owner": "शिवाजी दत्तात्रय पवार",
+      "to_owner": "दिलीप कृष्णा दाभाडे",
+      "area": 0.53
+    },
+    {
+      "mutation_number": "2175",
+      "date": "2009-08-22",
+      "type": "inheritance",
+      "from_owner": "दिलीप कृष्णा दाभाडे",
+      "to_owner": "केशव नामदेव जाधव",
+      "area": 0.53
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.54,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.52,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.54,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 0.43,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 0.6,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0145",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0148.jpg"
+}

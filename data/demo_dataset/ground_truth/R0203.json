@@ -1,0 +1,93 @@
+{
+  "record_id": "R0203",
+  "family_id": "F0036",
+  "role": "hissa",
+  "district": "कोल्हापूर",
+  "taluka": "शिरोळ",
+  "village": "कवठेमळा",
+  "survey_number": "381",
+  "hissa_number": "3",
+  "khata_number": "254",
+  "total_area": 0.56,
+  "cultivable_area": 0.56,
+  "pot_kharaba": 0.0,
+  "assessment": 1.75,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "संतोष भास्कर माने",
+      "share_area": 0.32,
+      "assessment_share": 1.0
+    },
+    {
+      "name": "अनुसया कृष्णा गायकवाड",
+      "share_area": 0.16,
+      "assessment_share": 0.5
+    },
+    {
+      "name": "मीरा अनिल शिंदे",
+      "share_area": 0.08,
+      "assessment_share": 0.25
+    }
+  ],
+  "other_rights": [
+    "विविध कार्यकारी सोसायटी कर्ज रु. 235000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2389",
+      "date": "2003-03-05",
+      "type": "sale",
+      "from_owner": "संतोष भास्कर माने",
+      "to_owner": "मीरा अनिल शिंदे",
+      "area": 0.24
+    },
+    {
+      "mutation_number": "2580",
+      "date": "2004-01-13",
+      "type": "gift",
+      "from_owner": "मीरा अनिल शिंदे",
+      "to_owner": "प्रकाश बाळासाहेब तांबे",
+      "area": 0.16
+    },
+    {
+      "mutation_number": "2605",
+      "date": "2007-12-16",
+      "type": "gift",
+      "from_owner": "प्रकाश बाळासाहेब तांबे",
+      "to_owner": "अनुसया कृष्णा गायकवाड",
+      "area": 0.16
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.32,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.34,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0088",
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "duplicate_record",
+      "record_id": "R0203",
+      "detail": "survey number 381 hissa 3 in कवठेमळा is recorded twice: on R0203 and on R0091",
+      "fields": [
+        "village",
+        "survey_number",
+        "hissa_number"
+      ]
+    }
+  ],
+  "image_file": "images/R0203.jpg"
+}

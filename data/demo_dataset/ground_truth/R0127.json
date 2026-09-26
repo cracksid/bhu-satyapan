@@ -1,0 +1,101 @@
+{
+  "record_id": "R0127",
+  "family_id": "F0052",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "राहुरी",
+  "village": "बोरमाळवाडी",
+  "survey_number": "232",
+  "hissa_number": "4",
+  "khata_number": "666",
+  "total_area": 1.34,
+  "cultivable_area": 1.34,
+  "pot_kharaba": 0.0,
+  "assessment": 2.97,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "नामदेव रघुनाथ निकम",
+      "share_area": 0.78,
+      "assessment_share": 1.73
+    },
+    {
+      "name": "हरिभाऊ दिलीप कदम",
+      "share_area": 0.38,
+      "assessment_share": 0.84
+    },
+    {
+      "name": "महादेव हरिभाऊ घाडगे",
+      "share_area": 0.1,
+      "assessment_share": 0.22
+    },
+    {
+      "name": "कमल दत्तात्रय देशमुख",
+      "share_area": 0.08,
+      "assessment_share": 0.18
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1512",
+      "date": "2000-01-07",
+      "type": "gift",
+      "from_owner": "कमल दत्तात्रय देशमुख",
+      "to_owner": "नामदेव रघुनाथ निकम",
+      "area": 0.78
+    },
+    {
+      "mutation_number": "1775",
+      "date": "2002-12-09",
+      "type": "partition",
+      "from_owner": "कमल दत्तात्रय देशमुख",
+      "to_owner": "हरिभाऊ दिलीप कदम",
+      "area": 0.38
+    },
+    {
+      "mutation_number": "1952",
+      "date": "2005-07-19",
+      "type": "sale",
+      "from_owner": "कमल दत्तात्रय देशमुख",
+      "to_owner": "महादेव हरिभाऊ घाडगे",
+      "area": 0.1
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.54,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "हरभरा",
+      "area": 0.78,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 1.23,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 1.04,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0123",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0127.jpg"
+}

@@ -1,0 +1,93 @@
+{
+  "record_id": "R0175",
+  "family_id": "F0072",
+  "role": "parent",
+  "district": "पुणे",
+  "taluka": "शिरूर",
+  "village": "सोनखेडवाडी",
+  "survey_number": "103",
+  "hissa_number": null,
+  "khata_number": "741",
+  "total_area": 2.06,
+  "cultivable_area": 1.86,
+  "pot_kharaba": 0.2,
+  "assessment": 3.23,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "गणेश कृष्णा गायकवाड",
+      "share_area": 0.84,
+      "assessment_share": 1.32
+    },
+    {
+      "name": "कृष्णा भास्कर माने",
+      "share_area": 0.74,
+      "assessment_share": 1.16
+    },
+    {
+      "name": "तुकाराम बबन सावंत",
+      "share_area": 0.48,
+      "assessment_share": 0.75
+    }
+  ],
+  "other_rights": [
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1806",
+      "date": "2000-02-10",
+      "type": "partition",
+      "from_owner": "गणेश कृष्णा गायकवाड",
+      "to_owner": "शिवाजी हरिभाऊ घाडगे",
+      "area": 1.22
+    },
+    {
+      "mutation_number": "1995",
+      "date": "2001-03-15",
+      "type": "sale",
+      "from_owner": "शिवाजी हरिभाऊ घाडगे",
+      "to_owner": "कृष्णा भास्कर माने",
+      "area": 0.74
+    },
+    {
+      "mutation_number": "2034",
+      "date": "2004-06-03",
+      "type": "inheritance",
+      "from_owner": "शिवाजी हरिभाऊ घाडगे",
+      "to_owner": "तुकाराम बबन सावंत",
+      "area": 0.48
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 1.62,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "हरभरा",
+      "area": 1.15,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 1.01,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0176",
+    "R0177",
+    "R0178"
+  ],
+  "defects": [],
+  "image_file": "images/R0175.jpg"
+}

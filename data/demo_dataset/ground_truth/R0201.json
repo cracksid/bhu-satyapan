@@ -1,0 +1,106 @@
+{
+  "record_id": "R0201",
+  "family_id": "F0037",
+  "role": "parent",
+  "district": "सोलापूर",
+  "taluka": "माळशिरस",
+  "village": "करंजतळे",
+  "survey_number": "317",
+  "hissa_number": null,
+  "khata_number": "537",
+  "total_area": 0.98,
+  "cultivable_area": 0.92,
+  "pot_kharaba": 0.06,
+  "assessment": 2.96,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "प्रकाश सुनील साळुंखे",
+      "share_area": 0.33,
+      "assessment_share": 1.0
+    },
+    {
+      "name": "प्रकाश विठ्ठल गायकवाड",
+      "share_area": 0.28,
+      "assessment_share": 0.85
+    },
+    {
+      "name": "कृष्णा गणेश साळुंखे",
+      "share_area": 0.24,
+      "assessment_share": 0.72
+    },
+    {
+      "name": "पार्वती शिवाजी जाधव",
+      "share_area": 0.13,
+      "assessment_share": 0.39
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 190000",
+    "कूळ: शिवाजी भास्कर निकम"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1832",
+      "date": "2005-10-14",
+      "type": "partition",
+      "from_owner": "कृष्णा गणेश साळुंखे",
+      "to_owner": "पार्वती शिवाजी जाधव",
+      "area": 0.41
+    },
+    {
+      "mutation_number": "1983",
+      "date": "2009-11-03",
+      "type": "sale",
+      "from_owner": "पार्वती शिवाजी जाधव",
+      "to_owner": "प्रकाश विठ्ठल गायकवाड",
+      "area": 0.28
+    },
+    {
+      "mutation_number": "2073",
+      "date": "2012-08-03",
+      "type": "gift",
+      "from_owner": "कृष्णा गणेश साळुंखे",
+      "to_owner": "प्रकाश सुनील साळुंखे",
+      "area": 0.33
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.75,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.73,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.41,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "duplicate_record",
+      "record_id": "R0201",
+      "detail": "survey number 317 in करंजतळे is recorded twice: on R0201 and on R0093",
+      "fields": [
+        "village",
+        "survey_number",
+        "hissa_number"
+      ]
+    }
+  ],
+  "image_file": "images/R0201.jpg"
+}

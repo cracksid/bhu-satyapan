@@ -1,0 +1,100 @@
+{
+  "record_id": "R0104",
+  "family_id": "F0044",
+  "role": "parent",
+  "district": "नाशिक",
+  "taluka": "येवला",
+  "village": "निंबतळेवाडी",
+  "survey_number": "174",
+  "hissa_number": null,
+  "khata_number": "535",
+  "total_area": 1.66,
+  "cultivable_area": 1.59,
+  "pot_kharaba": 0.2,
+  "assessment": 3.46,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "शिवाजी यशवंत काळे",
+      "share_area": 0.59,
+      "assessment_share": 1.23
+    },
+    {
+      "name": "लक्ष्मी अनिल भोसले",
+      "share_area": 0.56,
+      "assessment_share": 1.17
+    },
+    {
+      "name": "राम महादेव तांबे",
+      "share_area": 0.51,
+      "assessment_share": 1.06
+    }
+  ],
+  "other_rights": [
+    "कूळ: पार्वती शिवाजी काळे"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1704",
+      "date": "2001-02-09",
+      "type": "inheritance",
+      "from_owner": "रघुनाथ अशोक देशमुख",
+      "to_owner": "राम महादेव तांबे",
+      "area": 1.66
+    },
+    {
+      "mutation_number": "1797",
+      "date": "2001-09-29",
+      "type": "gift",
+      "from_owner": "राम महादेव तांबे",
+      "to_owner": "शिवाजी यशवंत काळे",
+      "area": 0.59
+    },
+    {
+      "mutation_number": "2034",
+      "date": "2004-11-05",
+      "type": "gift",
+      "from_owner": "राम महादेव तांबे",
+      "to_owner": "लक्ष्मी अनिल भोसले",
+      "area": 0.56
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 1.18,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "भुईमूग",
+      "area": 1.1,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 1.57,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "area_balance_mismatch",
+      "record_id": "R0104",
+      "detail": "cultivable 1.59 + pot kharaba 0.20 != total 1.66 ha",
+      "fields": [
+        "total_area",
+        "cultivable_area",
+        "pot_kharaba"
+      ]
+    }
+  ],
+  "image_file": "images/R0104.jpg"
+}

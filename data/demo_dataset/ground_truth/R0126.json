@@ -1,0 +1,104 @@
+{
+  "record_id": "R0126",
+  "family_id": "F0052",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "राहुरी",
+  "village": "बोरमाळवाडी",
+  "survey_number": "232",
+  "hissa_number": "3",
+  "khata_number": "760",
+  "total_area": 0.45,
+  "cultivable_area": 0.41,
+  "pot_kharaba": 0.04,
+  "assessment": 1.29,
+  "tenure_class": 2,
+  "owners": [
+    {
+      "name": "दिलीप महादेव देशमुख",
+      "share_area": 0.18,
+      "assessment_share": 0.52
+    },
+    {
+      "name": "कमल सुनील तांबे",
+      "share_area": 0.14,
+      "assessment_share": 0.4
+    },
+    {
+      "name": "अशोक शिवाजी घाडगे",
+      "share_area": 0.13,
+      "assessment_share": 0.37
+    }
+  ],
+  "other_rights": [
+    "जिल्हा मध्यवर्ती सहकारी बँक कर्ज रु. 25000",
+    "पाणी वापर हक्क"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1382",
+      "date": "2003-03-09",
+      "type": "partition",
+      "from_owner": "भास्कर सुनील काळे",
+      "to_owner": "दिलीप महादेव देशमुख",
+      "area": 0.18
+    },
+    {
+      "mutation_number": "1416",
+      "date": "2004-10-22",
+      "type": "partition",
+      "from_owner": "भास्कर सुनील काळे",
+      "to_owner": "कमल सुनील तांबे",
+      "area": 0.14
+    },
+    {
+      "mutation_number": "1539",
+      "date": "2005-07-24",
+      "type": "partition",
+      "from_owner": "भास्कर सुनील काळे",
+      "to_owner": "अशोक शिवाजी घाडगे",
+      "area": 0.13
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.38,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.22,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "तूर",
+      "area": 0.33,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 0.22,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.25,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0123",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0126.jpg"
+}

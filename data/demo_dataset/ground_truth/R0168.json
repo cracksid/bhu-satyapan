@@ -1,0 +1,91 @@
+{
+  "record_id": "R0168",
+  "family_id": "F0069",
+  "role": "hissa",
+  "district": "सातारा",
+  "taluka": "पाटण",
+  "village": "वडगव्हाण खुर्द",
+  "survey_number": "294",
+  "hissa_number": "3",
+  "khata_number": "627",
+  "total_area": 1.03,
+  "cultivable_area": 0.98,
+  "pot_kharaba": 0.05,
+  "assessment": 3.94,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "रघुनाथ गणेश भोसले",
+      "share_area": 1.03,
+      "assessment_share": 3.94
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "2074",
+      "date": "2008-05-12",
+      "type": "gift",
+      "from_owner": "इंदुबाई राम काळे",
+      "to_owner": "अनिल बाळासाहेब पाटील",
+      "area": 1.03
+    },
+    {
+      "mutation_number": "2367",
+      "date": "2011-04-17",
+      "type": "inheritance",
+      "from_owner": "अनिल बाळासाहेब पाटील",
+      "to_owner": "अनुसया यशवंत वाघमारे",
+      "area": 1.03
+    },
+    {
+      "mutation_number": "2616",
+      "date": "2012-01-28",
+      "type": "inheritance",
+      "from_owner": "अनुसया यशवंत वाघमारे",
+      "to_owner": "रघुनाथ गणेश भोसले",
+      "area": 1.03
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.61,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 0.93,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.57,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.39,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "ऊस",
+      "area": 0.93,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0165",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0168.jpg"
+}

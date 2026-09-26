@@ -1,0 +1,111 @@
+{
+  "record_id": "R0170",
+  "family_id": "F0071",
+  "role": "parent",
+  "district": "सोलापूर",
+  "taluka": "पंढरपूर",
+  "village": "शिरसमाळवाडी",
+  "survey_number": "86",
+  "hissa_number": null,
+  "khata_number": "526",
+  "total_area": 2.7,
+  "cultivable_area": 2.62,
+  "pot_kharaba": 0.08,
+  "assessment": 10.9,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "संतोष नामदेव देशमुख",
+      "share_area": 1.11,
+      "assessment_share": 4.48
+    },
+    {
+      "name": "तुकाराम नामदेव जाधव",
+      "share_area": 1.01,
+      "assessment_share": 4.08
+    },
+    {
+      "name": "सुरेश महादेव शेलार",
+      "share_area": 0.58,
+      "assessment_share": 2.34
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 155000",
+    "कूळ: सुरेश नामदेव घाडगे"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "997",
+      "date": "1999-08-30",
+      "type": "sale",
+      "from_owner": "राम यशवंत जाधव",
+      "to_owner": "संतोष नामदेव देशमुख",
+      "area": 1.69
+    },
+    {
+      "mutation_number": "1244",
+      "date": "2002-11-25",
+      "type": "partition",
+      "from_owner": "राम यशवंत जाधव",
+      "to_owner": "तुकाराम नामदेव जाधव",
+      "area": 1.01
+    },
+    {
+      "mutation_number": "1400",
+      "date": "2006-06-30",
+      "type": "sale",
+      "from_owner": "वत्सला बबन जाधव",
+      "to_owner": "सुरेश महादेव शेलार",
+      "area": 0.58
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 2.61,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "बाजरी",
+      "area": 2.55,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "बाजरी",
+      "area": 2.02,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "सोयाबीन",
+      "area": 2.5,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [
+    "R0171",
+    "R0172",
+    "R0173",
+    "R0174"
+  ],
+  "defects": [
+    {
+      "type": "broken_mutation_chain",
+      "record_id": "R0170",
+      "detail": "mutation 1400 is transferred by वत्सला बबन जाधव, who was not an owner at that time (the holder was संतोष नामदेव देशमुख)",
+      "fields": [
+        "mutations"
+      ]
+    }
+  ],
+  "image_file": "images/R0170.jpg"
+}

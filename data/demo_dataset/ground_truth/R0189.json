@@ -1,0 +1,77 @@
+{
+  "record_id": "R0189",
+  "family_id": "F0077",
+  "role": "hissa",
+  "district": "नाशिक",
+  "taluka": "दिंडोरी",
+  "village": "वडगव्हाण खुर्द",
+  "survey_number": "192",
+  "hissa_number": "3",
+  "khata_number": "404",
+  "total_area": 0.61,
+  "cultivable_area": 0.55,
+  "pot_kharaba": 0.06,
+  "assessment": 1.26,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "शांता नामदेव शिंदे",
+      "share_area": 0.35,
+      "assessment_share": 0.72
+    },
+    {
+      "name": "बाळासाहेब शिवाजी कदम",
+      "share_area": 0.26,
+      "assessment_share": 0.54
+    }
+  ],
+  "other_rights": [
+    "कूळ: सुनील हरिभाऊ शिंदे",
+    "रस्ता हक्क"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1926",
+      "date": "1999-06-20",
+      "type": "gift",
+      "from_owner": "बाळासाहेब शिवाजी कदम",
+      "to_owner": "अनुसया अशोक साळुंखे",
+      "area": 0.35
+    },
+    {
+      "mutation_number": "2190",
+      "date": "2003-04-03",
+      "type": "partition",
+      "from_owner": "अनुसया अशोक साळुंखे",
+      "to_owner": "शांता नामदेव शिंदे",
+      "area": 0.35
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 0.44,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.38,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ऊस",
+      "area": 0.49,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0186",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0189.jpg"
+}

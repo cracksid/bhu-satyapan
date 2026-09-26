@@ -1,0 +1,78 @@
+{
+  "record_id": "R0121",
+  "family_id": "F0050",
+  "role": "hissa",
+  "district": "पुणे",
+  "taluka": "शिरूर",
+  "village": "जांभूळवस्ती",
+  "survey_number": "204",
+  "hissa_number": "3",
+  "khata_number": "161",
+  "total_area": 0.48,
+  "cultivable_area": 0.43,
+  "pot_kharaba": 0.05,
+  "assessment": 1.31,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "विठ्ठल राम दाभाडे",
+      "share_area": 0.29,
+      "assessment_share": 0.79
+    },
+    {
+      "name": "दत्तात्रय कृष्णा घाडगे",
+      "share_area": 0.19,
+      "assessment_share": 0.52
+    }
+  ],
+  "other_rights": [
+    "विविध कार्यकारी सोसायटी कर्ज रु. 115000",
+    "कूळ: दत्तात्रय महादेव वाघमारे",
+    "विहीर"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "1515",
+      "date": "2000-08-28",
+      "type": "gift",
+      "from_owner": "नामदेव शिवाजी देशमुख",
+      "to_owner": "विठ्ठल राम दाभाडे",
+      "area": 0.29
+    },
+    {
+      "mutation_number": "1755",
+      "date": "2003-12-02",
+      "type": "inheritance",
+      "from_owner": "नामदेव शिवाजी देशमुख",
+      "to_owner": "दत्तात्रय कृष्णा घाडगे",
+      "area": 0.19
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 0.2,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "भुईमूग",
+      "area": 0.26,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "तूर",
+      "area": 0.32,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": "R0118",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0121.jpg"
+}

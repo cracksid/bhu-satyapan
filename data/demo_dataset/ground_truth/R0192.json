@@ -1,0 +1,105 @@
+{
+  "record_id": "R0192",
+  "family_id": "F0079",
+  "role": "parent",
+  "district": "सातारा",
+  "taluka": "कोरेगाव",
+  "village": "निंबतळेवाडी",
+  "survey_number": "67",
+  "hissa_number": null,
+  "khata_number": "411",
+  "total_area": 3.12,
+  "cultivable_area": 2.78,
+  "pot_kharaba": 0.34,
+  "assessment": 9.71,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "बबन तुकाराम मोरे",
+      "share_area": 1.93,
+      "assessment_share": 6.0
+    },
+    {
+      "name": "सुरेश केशव निकम",
+      "share_area": 0.61,
+      "assessment_share": 1.9
+    },
+    {
+      "name": "जिजाबाई अशोक कदम",
+      "share_area": 0.58,
+      "assessment_share": 1.81
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1711",
+      "date": "2004-09-18",
+      "type": "partition",
+      "from_owner": "लक्ष्मी अशोक कुलकर्णी",
+      "to_owner": "जिजाबाई अशोक कदम",
+      "area": 3.12
+    },
+    {
+      "mutation_number": "1793",
+      "date": "2007-03-10",
+      "type": "gift",
+      "from_owner": "जिजाबाई अशोक कदम",
+      "to_owner": "बबन तुकाराम मोरे",
+      "area": 1.93
+    },
+    {
+      "mutation_number": "2068",
+      "date": "2007-10-13",
+      "type": "gift",
+      "from_owner": "जिजाबाई अशोक कदम",
+      "to_owner": "सुरेश केशव निकम",
+      "area": 0.61
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 1.18,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 1.93,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "सोयाबीन",
+      "area": 2.21,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 1.53,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "duplicate_record",
+      "record_id": "R0192",
+      "detail": "survey number 67 in निंबतळेवाडी is recorded twice: on R0192 and on R0210",
+      "fields": [
+        "village",
+        "survey_number",
+        "hissa_number"
+      ]
+    }
+  ],
+  "image_file": "images/R0192.jpg"
+}

@@ -1,0 +1,110 @@
+{
+  "record_id": "R0066",
+  "family_id": "F0025",
+  "role": "hissa",
+  "district": "अहिल्यानगर",
+  "taluka": "पारनेर",
+  "village": "करंजतळे",
+  "survey_number": "153",
+  "hissa_number": "3",
+  "khata_number": "219",
+  "total_area": 0.77,
+  "cultivable_area": 0.74,
+  "pot_kharaba": 0.03,
+  "assessment": 1.22,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "सुनील बाळासाहेब पाटील",
+      "share_area": 0.39,
+      "assessment_share": 0.62
+    },
+    {
+      "name": "अनिल संतोष माने",
+      "share_area": 0.17,
+      "assessment_share": 0.27
+    },
+    {
+      "name": "गणेश सुनील तांबे",
+      "share_area": 0.14,
+      "assessment_share": 0.22
+    },
+    {
+      "name": "दत्तात्रय यशवंत पाटील",
+      "share_area": 0.07,
+      "assessment_share": 0.11
+    }
+  ],
+  "other_rights": [
+    "विविध कार्यकारी सोसायटी कर्ज रु. 170000",
+    "कूळ: राम सखाराम काळे"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "2263",
+      "date": "2006-05-26",
+      "type": "partition",
+      "from_owner": "गणेश सखाराम चव्हाण",
+      "to_owner": "अनिल संतोष माने",
+      "area": 0.38
+    },
+    {
+      "mutation_number": "2399",
+      "date": "2007-01-20",
+      "type": "inheritance",
+      "from_owner": "गणेश सखाराम चव्हाण",
+      "to_owner": "सुनील बाळासाहेब पाटील",
+      "area": 0.39
+    },
+    {
+      "mutation_number": "2677",
+      "date": "2010-11-27",
+      "type": "sale",
+      "from_owner": "अनिल संतोष माने",
+      "to_owner": "गणेश सुनील तांबे",
+      "area": 0.21
+    },
+    {
+      "mutation_number": "2970",
+      "date": "2012-11-19",
+      "type": "sale",
+      "from_owner": "गणेश सुनील तांबे",
+      "to_owner": "दत्तात्रय यशवंत पाटील",
+      "area": 0.07
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "कापूस",
+      "area": 0.66,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 0.35,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "ऊस",
+      "area": 0.57,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "रब्बी",
+      "crop": "तूर",
+      "area": 0.73,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": "R0063",
+  "hissa_record_ids": [],
+  "defects": [],
+  "image_file": "images/R0066.jpg"
+}

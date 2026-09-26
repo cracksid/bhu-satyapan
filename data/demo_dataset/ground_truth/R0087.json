@@ -1,0 +1,104 @@
+{
+  "record_id": "R0087",
+  "family_id": "F0035",
+  "role": "parent",
+  "district": "सातारा",
+  "taluka": "कोरेगाव",
+  "village": "मोरचिंचोली",
+  "survey_number": "363",
+  "hissa_number": null,
+  "khata_number": "602",
+  "total_area": 3.29,
+  "cultivable_area": 3.29,
+  "pot_kharaba": 0.12,
+  "assessment": 10.29,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "अनिल राम कदम",
+      "share_area": 1.56,
+      "assessment_share": 4.88
+    },
+    {
+      "name": "महादेव कृष्णा भोसले",
+      "share_area": 0.88,
+      "assessment_share": 2.75
+    },
+    {
+      "name": "लक्ष्मी रमेश चव्हाण",
+      "share_area": 0.85,
+      "assessment_share": 2.66
+    }
+  ],
+  "other_rights": [],
+  "mutations": [
+    {
+      "mutation_number": "1158",
+      "date": "2002-03-31",
+      "type": "partition",
+      "from_owner": "महादेव कृष्णा भोसले",
+      "to_owner": "अनिल राम कदम",
+      "area": 1.56
+    },
+    {
+      "mutation_number": "1361",
+      "date": "2004-11-28",
+      "type": "partition",
+      "from_owner": "महादेव कृष्णा भोसले",
+      "to_owner": "लक्ष्मी रमेश चव्हाण",
+      "area": 0.85
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "भात",
+      "area": 1.86,
+      "irrigation": "जिरायत"
+    },
+    {
+      "year": "2022-23",
+      "season": "रब्बी",
+      "crop": "बाजरी",
+      "area": 2.36,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 2.39,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "ज्वारी",
+      "area": 2.85,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2024-25",
+      "season": "खरीप",
+      "crop": "ज्वारी",
+      "area": 2.54,
+      "irrigation": "बागायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "area_balance_mismatch",
+      "record_id": "R0087",
+      "detail": "cultivable 3.29 + pot kharaba 0.12 != total 3.29 ha",
+      "fields": [
+        "total_area",
+        "cultivable_area",
+        "pot_kharaba"
+      ]
+    }
+  ],
+  "image_file": "images/R0087.jpg"
+}

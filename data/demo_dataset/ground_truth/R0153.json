@@ -1,0 +1,95 @@
+{
+  "record_id": "R0153",
+  "family_id": "F0064",
+  "role": "parent",
+  "district": "पुणे",
+  "taluka": "हवेली",
+  "village": "देवगव्हाणवाडी",
+  "survey_number": "26",
+  "hissa_number": null,
+  "khata_number": "935",
+  "total_area": 1.45,
+  "cultivable_area": 1.32,
+  "pot_kharaba": 0.29,
+  "assessment": 2.24,
+  "tenure_class": 1,
+  "owners": [
+    {
+      "name": "सुनील दिलीप साळुंखे",
+      "share_area": 0.91,
+      "assessment_share": 1.41
+    },
+    {
+      "name": "सुनील सुरेश माने",
+      "share_area": 0.54,
+      "assessment_share": 0.83
+    }
+  ],
+  "other_rights": [
+    "ग्रामीण बँक कर्ज रु. 85000"
+  ],
+  "mutations": [
+    {
+      "mutation_number": "965",
+      "date": "2002-05-08",
+      "type": "partition",
+      "from_owner": "प्रकाश महादेव घाडगे",
+      "to_owner": "सुनील सुरेश माने",
+      "area": 0.54
+    },
+    {
+      "mutation_number": "1046",
+      "date": "2005-04-18",
+      "type": "inheritance",
+      "from_owner": "प्रकाश महादेव घाडगे",
+      "to_owner": "दत्तात्रय अनिल गायकवाड",
+      "area": 0.91
+    },
+    {
+      "mutation_number": "1073",
+      "date": "2006-10-25",
+      "type": "partition",
+      "from_owner": "दत्तात्रय अनिल गायकवाड",
+      "to_owner": "सुनील दिलीप साळुंखे",
+      "area": 0.91
+    }
+  ],
+  "crops": [
+    {
+      "year": "2022-23",
+      "season": "खरीप",
+      "crop": "हरभरा",
+      "area": 1.29,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "खरीप",
+      "crop": "गहू",
+      "area": 0.79,
+      "irrigation": "बागायत"
+    },
+    {
+      "year": "2023-24",
+      "season": "रब्बी",
+      "crop": "भात",
+      "area": 0.58,
+      "irrigation": "जिरायत"
+    }
+  ],
+  "parent_record_id": null,
+  "hissa_record_ids": [],
+  "defects": [
+    {
+      "type": "area_balance_mismatch",
+      "record_id": "R0153",
+      "detail": "cultivable 1.32 + pot kharaba 0.29 != total 1.45 ha",
+      "fields": [
+        "total_area",
+        "cultivable_area",
+        "pot_kharaba"
+      ]
+    }
+  ],
+  "image_file": "images/R0153.jpg"
+}
