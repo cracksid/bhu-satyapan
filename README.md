@@ -9,6 +9,12 @@ fields, checks them for internal inconsistencies, and outputs a
 
 > **The system never edits a land record.** It only flags records for human review.
 
+**Live app:** <https://bhu-satyapan.streamlit.app/> — the same code, running on
+Streamlit Community Cloud. It serves `data/demo_dataset/`, because the hosted
+container has no generator. It has Tesseract (see `packages.txt`) but not
+`data/tessdata_best/`, so it has no second opinion on a number and declines
+more often than a machine that has both models.
+
 ## Status
 
 | Phase | What | Status |
